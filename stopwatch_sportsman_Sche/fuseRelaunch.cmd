@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/ISE/stopwatch_sportsman_Sche/div5_div5_sch_tb_isim_beh.exe" -prj "D:/ISE/stopwatch_sportsman_Sche/div5_div5_sch_tb_beh.prj" "work.div5_div5_sch_tb" "work.glbl" 

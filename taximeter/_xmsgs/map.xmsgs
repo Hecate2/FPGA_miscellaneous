@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">start_IBUF</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="395" delta="new" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">8</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="3">leap_IBUF,
+daynight_IBUF,
+pause_IBUF,
+disp_ctrl_IBUF,
+clk_50MHz_IBUF</arg>
+To see the details of these <arg fmt="%s" index="4">info</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="old" >Signal <arg fmt="%s" index="1">sm_duan&lt;6&gt;</arg> connected to top level port <arg fmt="%s" index="2">sm_duan&lt;6&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="old" >Signal <arg fmt="%s" index="1">sm_duan&lt;3&gt;</arg> connected to top level port <arg fmt="%s" index="2">sm_duan&lt;3&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="old" >Signal <arg fmt="%s" index="1">sm_duan&lt;2&gt;</arg> connected to top level port <arg fmt="%s" index="2">sm_duan&lt;2&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="old" >Signal <arg fmt="%s" index="1">sm_duan&lt;1&gt;</arg> connected to top level port <arg fmt="%s" index="2">sm_duan&lt;1&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="old" >Signal <arg fmt="%s" index="1">sm_wei&lt;3&gt;</arg> connected to top level port <arg fmt="%s" index="2">sm_wei&lt;3&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="old" >Signal <arg fmt="%s" index="1">sm_wei&lt;2&gt;</arg> connected to top level port <arg fmt="%s" index="2">sm_wei&lt;2&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="old" >Signal <arg fmt="%s" index="1">sm_wei&lt;1&gt;</arg> connected to top level port <arg fmt="%s" index="2">sm_wei&lt;1&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="old" >Signal <arg fmt="%s" index="1">sm_wei&lt;0&gt;</arg> connected to top level port <arg fmt="%s" index="2">sm_wei&lt;0&gt;</arg> has been removed.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">pause_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">daynight_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">speed&lt;0&gt;_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">clk_50MHz_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">leap_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">speed&lt;1&gt;_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">speed&lt;2&gt;_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">start_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">disp_ctrl_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+</messages>
+

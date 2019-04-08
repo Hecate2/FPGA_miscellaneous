@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/ISE/traffic_light/test_state_isim_beh.exe" -prj "D:/ISE/traffic_light/test_state_beh.prj" "work.test_state" "work.glbl" 

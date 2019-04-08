@@ -1,0 +1,4 @@
+vhdl work "D_FlipFlop.vhf"
+vhdl work "freq_divider.vhf"
+verilog work "test_freq_divider.v"
+verilog work "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

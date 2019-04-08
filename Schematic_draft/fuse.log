@@ -1,0 +1,45 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/ISE/Schematic_draft/display_display_sch_tb_isim_beh.exe -prj D:/ISE/Schematic_draft/display_display_sch_tb_beh.prj display_display_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/ISE/Schematic_draft/test_display.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "D:/ISE/Schematic_draft/BCD_7seg.vhf" into library work
+Parsing VHDL file "D:/ISE/Schematic_draft/display.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module display_display_sch_tb
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture xor2_v of entity XOR2 [xor2_default]
+Compiling architecture fdce_v of entity FDCE [\FDCE('0')\]
+Compiling architecture behavioral of entity FTCE_MXILINX_display [\FTCE_MXILINX_display('0')\]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture vcc_v of entity VCC [vcc_default]
+Compiling architecture behavioral of entity CB2CE_MXILINX_display [cb2ce_mxilinx_display_default]
+Compiling architecture and3_v of entity AND3 [and3_default]
+Compiling architecture and3b1_v of entity AND3B1 [and3b1_default]
+Compiling architecture and3b2_v of entity AND3B2 [and3b2_default]
+Compiling architecture behavioral of entity D2_4E_MXILINX_display [d2_4e_mxilinx_display_default]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture or4_v of entity OR4 [or4_default]
+Compiling architecture nand4_v of entity NAND4 [nand4_default]
+Compiling architecture nand5_v of entity NAND5 [nand5_default]
+Compiling architecture nand3_v of entity NAND3 [nand3_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture behavioral of entity INV4_MXILINX_display [inv4_mxilinx_display_default]
+Compiling architecture nand2_v of entity NAND2 [nand2_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture behavioral of entity BCD_7seg_MUSER_display [bcd_7seg_muser_display_default]
+Compiling architecture behavioral of entity display [display_default]
+Time Resolution for simulation is 1ps.
+Waiting for 16 sub-compilation(s) to finish...
+Compiled 46 VHDL Units
+Compiled 2 Verilog Units
+Built simulation executable D:/ISE/Schematic_draft/display_display_sch_tb_isim_beh.exe
+Fuse Memory Usage: 48780 KB
+Fuse CPU Usage: 2527 ms

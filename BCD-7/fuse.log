@@ -1,0 +1,19 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/ISE/BCD-7/testsource_SSD_4_7_isim_beh.exe" -prj "D:/ISE/BCD-7/testsource_SSD_4_7_beh.prj" "work.testsource_SSD_4_7" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/ISE/BCD-7/BCD-7.v" into library work
+Analyzing Verilog file "D:/ISE/BCD-7/BCD_7_test.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module source_SSD_4_7
+Compiling module testsource_SSD_4_7
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable D:/ISE/BCD-7/testsource_SSD_4_7_isim_beh.exe
+Fuse Memory Usage: 27324 KB
+Fuse CPU Usage: 982 ms

@@ -1,0 +1,13 @@
+V3 15
+EN work/SOP4_MXILINX_exp_2_1_16_2 0 FL D:/ISE/Schematic_draft/exp_2_1_16_2.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/SOP4_MXILINX_exp_2_1_16_2/BEHAVIORAL 0 \
+      FL D:/ISE/Schematic_draft/exp_2_1_16_2.vhf \
+      EN work/SOP4_MXILINX_exp_2_1_16_2 0 CP AND2 CP OR2
+EN work/exp_2_1_16_2 0 \
+      FL D:/ISE/Schematic_draft/exp_2_1_16_2.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/exp_2_1_16_2/BEHAVIORAL 0 \
+      FL D:/ISE/Schematic_draft/exp_2_1_16_2.vhf EN work/exp_2_1_16_2 0 CP AND2 \
+      CP NOR2 CP INV CP XNOR2 CP NOR3 CP FD CP OR5 CP SOP4_MXILINX_exp_2_1_16_2

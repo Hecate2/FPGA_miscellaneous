@@ -1,0 +1,5 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl freq_divider_drc.vhf -w D:/ISE/vending_asychronous_Sche/freq_divider.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym freq_divider D:/ISE/vending_asychronous_Sche/freq_divider.sch D:/ISE/vending_asychronous_Sche/freq_divider.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym freq_divider D:/ISE/vending_asychronous_Sche/freq_divider.sch D:/ISE/vending_asychronous_Sche/freq_divider.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym freq_divider D:/ISE/vending_asychronous_Sche/freq_divider.sch D:/ISE/vending_asychronous_Sche/freq_divider.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl freq_divider_drc.vhf -w D:/ISE/vending_asychronous_Sche/freq_divider.sch 

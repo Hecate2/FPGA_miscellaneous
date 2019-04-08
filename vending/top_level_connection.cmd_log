@@ -1,0 +1,109 @@
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_level_connection_map.ncd top_level_connection.ngd top_level_connection.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_connection_map.ncd top_level_connection.ncd top_level_connection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_level_connection.twx top_level_connection.ncd -o top_level_connection.twr top_level_connection.pcf -ucf vending.ucf 
+bitgen -intstyle ise -f top_level_connection.ut top_level_connection.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_level_connection_map.ncd top_level_connection.ngd top_level_connection.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_connection_map.ncd top_level_connection.ncd top_level_connection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_level_connection.twx top_level_connection.ncd -o top_level_connection.twr top_level_connection.pcf -ucf vending.ucf 
+bitgen -intstyle ise -f top_level_connection.ut top_level_connection.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_level_connection_map.ncd top_level_connection.ngd top_level_connection.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_connection_map.ncd top_level_connection.ncd top_level_connection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_level_connection.twx top_level_connection.ncd -o top_level_connection.twr top_level_connection.pcf -ucf vending.ucf 
+bitgen -intstyle ise -f top_level_connection.ut top_level_connection.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_level_connection_map.ncd top_level_connection.ngd top_level_connection.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_connection_map.ncd top_level_connection.ncd top_level_connection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_level_connection.twx top_level_connection.ncd -o top_level_connection.twr top_level_connection.pcf -ucf vending.ucf 
+bitgen -intstyle ise -f top_level_connection.ut top_level_connection.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_level_connection_map.ncd top_level_connection.ngd top_level_connection.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_connection_map.ncd top_level_connection.ncd top_level_connection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_level_connection.twx top_level_connection.ncd -o top_level_connection.twr top_level_connection.pcf -ucf vending.ucf 
+bitgen -intstyle ise -f top_level_connection.ut top_level_connection.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_level_connection_map.ncd top_level_connection.ngd top_level_connection.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_connection_map.ncd top_level_connection.ncd top_level_connection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_level_connection.twx top_level_connection.ncd -o top_level_connection.twr top_level_connection.pcf -ucf vending.ucf 
+bitgen -intstyle ise -f top_level_connection.ut top_level_connection.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_level_connection_map.ncd top_level_connection.ngd top_level_connection.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_connection_map.ncd top_level_connection.ncd top_level_connection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_level_connection.twx top_level_connection.ncd -o top_level_connection.twr top_level_connection.pcf -ucf vending.ucf 
+bitgen -intstyle ise -f top_level_connection.ut top_level_connection.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_level_connection_map.ncd top_level_connection.ngd top_level_connection.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_connection_map.ncd top_level_connection.ncd top_level_connection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_level_connection.twx top_level_connection.ncd -o top_level_connection.twr top_level_connection.pcf -ucf vending.ucf 
+bitgen -intstyle ise -f top_level_connection.ut top_level_connection.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_level_connection_map.ncd top_level_connection.ngd top_level_connection.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_connection_map.ncd top_level_connection.ncd top_level_connection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_level_connection.twx top_level_connection.ncd -o top_level_connection.twr top_level_connection.pcf -ucf vending.ucf 
+bitgen -intstyle ise -f top_level_connection.ut top_level_connection.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_level_connection_map.ncd top_level_connection.ngd top_level_connection.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_connection_map.ncd top_level_connection.ncd top_level_connection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_level_connection.twx top_level_connection.ncd -o top_level_connection.twr top_level_connection.pcf -ucf vending.ucf 
+bitgen -intstyle ise -f top_level_connection.ut top_level_connection.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_level_connection_map.ncd top_level_connection.ngd top_level_connection.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_connection_map.ncd top_level_connection.ncd top_level_connection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_level_connection.twx top_level_connection.ncd -o top_level_connection.twr top_level_connection.pcf -ucf vending.ucf 
+bitgen -intstyle ise -f top_level_connection.ut top_level_connection.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_level_connection_map.ncd top_level_connection.ngd top_level_connection.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_connection_map.ncd top_level_connection.ncd top_level_connection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_level_connection.twx top_level_connection.ncd -o top_level_connection.twr top_level_connection.pcf -ucf vending.ucf 
+bitgen -intstyle ise -f top_level_connection.ut top_level_connection.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_level_connection_map.ncd top_level_connection.ngd top_level_connection.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_connection_map.ncd top_level_connection.ncd top_level_connection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_level_connection.twx top_level_connection.ncd -o top_level_connection.twr top_level_connection.pcf -ucf vending.ucf 
+bitgen -intstyle ise -f top_level_connection.ut top_level_connection.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_level_connection_map.ncd top_level_connection.ngd top_level_connection.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_connection_map.ncd top_level_connection.ncd top_level_connection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_level_connection.twx top_level_connection.ncd -o top_level_connection.twr top_level_connection.pcf -ucf vending.ucf 
+bitgen -intstyle ise -f top_level_connection.ut top_level_connection.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending/top_level_connection.xst" -ofn "D:/ISE/vending/top_level_connection.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending.ucf -p xc3s100e-cp132-4 top_level_connection.ngc top_level_connection.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_level_connection_map.ncd top_level_connection.ngd top_level_connection.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_connection_map.ncd top_level_connection.ncd top_level_connection.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_level_connection.twx top_level_connection.ncd -o top_level_connection.twr top_level_connection.pcf -ucf vending.ucf 
+bitgen -intstyle ise -f top_level_connection.ut top_level_connection.ncd 

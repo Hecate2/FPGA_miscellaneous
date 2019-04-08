@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\ISE\traffic_light\traffic_light.ncd
+OUTFILE=D:\ISE\traffic_light\traffic_light.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=D:\ISE\traffic_light
+LICENSE=ISE
+USER_INFO=135256_15690819_173552794_661

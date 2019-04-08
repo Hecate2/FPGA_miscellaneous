@@ -1,0 +1,28 @@
+Command line:
+   BCD_7_Sche_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1485
+
+Sat Oct 14 17:03:30 2017
+
+
+ Elaboration Time: 0.093601 sec
+
+ Current Memory Usage: 663.396 Meg
+
+ Total Signals          : 116
+ Total Nets             : 37
+ Total Signal Drivers   : 25
+ Total Blocks           : 23
+ Total Primitive Blocks : 21
+ Total Processes        : 26
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 117
+
+ Total Simulation Time: 0.171601 sec
+
+ Current Memory Usage: 663.396 Meg
+
+Sat Oct 14 17:03:36 2017
+

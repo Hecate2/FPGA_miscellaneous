@@ -1,0 +1,11 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl freq_div_drc.vhf -w D:/ISE/stopwatch_sportsman_Sche/freq_div.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym freq_div D:/ISE/stopwatch_sportsman_Sche/freq_div.sch D:/ISE/stopwatch_sportsman_Sche/freq_div.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym freq_div D:/ISE/stopwatch_sportsman_Sche/freq_div.sch D:/ISE/stopwatch_sportsman_Sche/freq_div.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl freq_div_drc.vhf -w D:/ISE/stopwatch_sportsman_Sche/freq_div.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym freq_div D:/ISE/stopwatch_sportsman_Sche/freq_div.sch D:/ISE/stopwatch_sportsman_Sche/freq_div.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl freq_div_drc.vhf -w D:/ISE/stopwatch_sportsman_Sche/freq_div.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl freq_div_drc.vhf -w D:/ISE/stopwatch_sportsman_Sche/freq_div.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl freq_div_drc.vhf -w D:/ISE/stopwatch_sportsman_Sche/freq_div.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym freq_div D:/ISE/stopwatch_sportsman_Sche/freq_div.sch D:/ISE/stopwatch_sportsman_Sche/freq_div.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym freq_div D:/ISE/stopwatch_sportsman_Sche/freq_div.sch D:/ISE/stopwatch_sportsman_Sche/freq_div.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl freq_div_drc.vhf -w D:/ISE/stopwatch_sportsman_Sche/freq_div.sch 

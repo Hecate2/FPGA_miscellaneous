@@ -1,0 +1,8 @@
+V3 13
+FL D:/ISE/Summator_Sche/Summator_Sche.vhf 2017/10/13.10:12:29 P.20131013
+EN work/Summator_Sche 1507860757 FL D:/ISE/Summator_Sche/Summator_Sche.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Summator_Sche/BEHAVIORAL 1507860758 \
+      FL D:/ISE/Summator_Sche/Summator_Sche.vhf EN work/Summator_Sche 1507860757 \
+      CP OR2 CP AND2 CP INV CP XOR2 CP GND CP AND3 CP OR3 CP AND4 CP OR4

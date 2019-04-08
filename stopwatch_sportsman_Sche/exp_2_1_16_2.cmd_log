@@ -1,0 +1,6 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym exp_2_1_16_2 D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_2.sch D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_2.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl exp_2_1_16_2_drc.vhf -w D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_2.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym exp_2_1_16_2 D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_2.sch D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_2.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym exp_2_1_16_2 D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_2.sch D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_2.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym exp_2_1_16_2 D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_2.sch D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_2.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl exp_2_1_16_2_drc.vhf -w D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_2.sch 

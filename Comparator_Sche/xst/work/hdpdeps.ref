@@ -1,0 +1,8 @@
+V3 13
+FL D:/ISE/Comparator_Sche/Comparator_Sche.vhf 2017/10/14.18:10:04 P.20131013
+EN work/Comparator_Sche 1507975813 FL D:/ISE/Comparator_Sche/Comparator_Sche.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Comparator_Sche/BEHAVIORAL 1507975814 \
+      FL D:/ISE/Comparator_Sche/Comparator_Sche.vhf EN work/Comparator_Sche 1507975813 \
+      CP AND5 CP AND4 CP AND3 CP AND2 CP OR5 CP NOR2 CP NAND2 CP VCC CP GND

@@ -1,0 +1,43 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/ISE/vending/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to D:/ISE/vending/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "vending.v" in library work
+WARNING:HDLCompilers:298 - "vending.v" line 32 Too many digits specified in decimal constant
+WARNING:HDLCompilers:298 - "vending.v" line 33 Too many digits specified in decimal constant
+WARNING:HDLCompilers:298 - "vending.v" line 34 Too many digits specified in decimal constant
+WARNING:HDLCompilers:298 - "vending.v" line 35 Too many digits specified in decimal constant
+Module <vending> compiled
+Module <display> compiled
+Module <top_level_connection> compiled
+No errors in compilation
+Analysis of file <"display.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> 
+
+Total memory usage is 209700 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

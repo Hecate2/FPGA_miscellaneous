@@ -1,0 +1,39 @@
+(DELAYFILE
+  (SDFVERSION "3.0")
+  (DESIGN "Topsch")
+  (DATE "Fri Sep 22 16:47:24 2017")
+  (VENDOR "Xilinx")
+  (PROGRAM "Xilinx SDF Writer")
+  (VERSION "P.20131013")
+  (DIVIDER /)
+  (VOLTAGE 1.14)
+  (TEMPERATURE 85)
+  (TIMESCALE 1 ps)
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE LD7_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1653:2068:2068))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE LD7\/OUTPUT\/OFF\/OMUX)
+      (DELAY
+        (PATHPULSE (638))
+        (ABSOLUTE
+          (IOPATH I O (464:580:580))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE LD7\/OUTPUT\/OFF\/O1INV)
+      (DELAY
+        (PATHPULSE (638))
+        (ABSOLUTE
+          (IOPATH I O ( 0 ))
+        )
+      )
+  )
+)

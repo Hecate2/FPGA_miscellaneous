@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf</arg>&quot; line <arg fmt="%d" index="2">1131</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">clk_100Hz</arg>&apos; of component &apos;<arg fmt="%s" index="4">freq_div_MUSER_stopwatch_sportsman_Sche</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf</arg>&quot; line <arg fmt="%d" index="2">1131</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">clk_10Hz</arg>&apos; of component &apos;<arg fmt="%s" index="4">freq_div_MUSER_stopwatch_sportsman_Sche</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf</arg>&quot; line <arg fmt="%d" index="2">564</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">RCO</arg>&apos; of component &apos;<arg fmt="%s" index="4">exp_2_1_16_2_MUSER_stopwatch_sportsman_Sche</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="905" delta="old" >&quot;<arg fmt="%s" index="1">display.v</arg>&quot; line <arg fmt="%d" index="2">38</arg>: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;data&gt;, &lt;dots&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="905" delta="new" >&quot;<arg fmt="%s" index="1">display.v</arg>&quot; line <arg fmt="%d" index="2">50</arg>: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;EN&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">div5_MUSER_stopwatch_sportsman_Sche</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

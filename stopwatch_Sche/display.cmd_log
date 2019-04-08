@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/ISE/stopwatch_Sche/display.v -lang verilog -prj stopwatch_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e display.spl D:/ISE/stopwatch_Sche/display.sym 

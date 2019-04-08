@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\ISE\traffic_light\impact.xsl
+OUTFILE=D:\ISE\traffic_light\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=D:\ISE\traffic_light
+LICENSE=iMPACT
+USER_INFO=iMPACT

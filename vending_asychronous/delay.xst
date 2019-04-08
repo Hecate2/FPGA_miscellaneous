@@ -1,0 +1,5 @@
+set -tmpdir "D:/ISE/vending_asychronous/xst/projnav.tmp"
+set -xsthdpdir "D:/ISE/vending_asychronous/xst"
+elaborate
+-ifn delay.prj
+-ifmt mixed

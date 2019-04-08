@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/ISE/traffic_light/test_traffic_light.xst" -ofn "D:/ISE/traffic_light/test_traffic_light.syr" 

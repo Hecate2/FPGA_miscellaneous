@@ -1,0 +1,28 @@
+Command line:
+   testsource_SSD_4_7_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1276
+
+Sat Oct 14 16:41:10 2017
+
+
+ Elaboration Time: 0.078001 sec
+
+ Current Memory Usage: 663.4 Meg
+
+ Total Signals          : 21
+ Total Nets             : 31
+ Total Signal Drivers   : 13
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 16
+ Total Traceable Variables  : 26
+ Total Scalar Nets and Variables : 129
+
+ Total Simulation Time: 0.078001 sec
+
+ Current Memory Usage: 977.973 Meg
+
+Sat Oct 14 16:41:40 2017
+

@@ -1,0 +1,183 @@
+V3 103
+FL D:/ISE/stopwatch_sportsman_Sche/display.vhf 2017/11/18.15:11:32 P.20131013
+EN work/FTRSE_MXILINX_display 1510989159 \
+      FL D:/ISE/stopwatch_sportsman_Sche/display.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTRSE_MXILINX_display/BEHAVIORAL 1510989160 \
+      FL D:/ISE/stopwatch_sportsman_Sche/display.vhf \
+      EN work/FTRSE_MXILINX_display 1510989159 CP XOR2 CP FDRE CP OR2
+EN work/CB2RE_MXILINX_display 1510989161 \
+      FL D:/ISE/stopwatch_sportsman_Sche/display.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB2RE_MXILINX_display/BEHAVIORAL 1510989162 \
+      FL D:/ISE/stopwatch_sportsman_Sche/display.vhf \
+      EN work/CB2RE_MXILINX_display 1510989161 CP FTRSE_MXILINX_display CP AND2 \
+      CP VCC CP GND
+EN work/display 1510989163 \
+      FL D:/ISE/stopwatch_sportsman_Sche/display.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/display/BEHAVIORAL 1510989164 \
+      FL D:/ISE/stopwatch_sportsman_Sche/display.vhf EN work/display 1510989163 \
+      CP CB2RE_MXILINX_display CP GND CP VCC CP NOR2 CP NOR2B1 CP NOR2B2
+FL D:/ISE/stopwatch_sportsman_Sche/div2.vhf 2017/11/17.10:20:57 P.20131013
+EN work/FTC_MXILINX_div2 1511489023 FL D:/ISE/stopwatch_sportsman_Sche/div2.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTC_MXILINX_div2/BEHAVIORAL 1511489024 \
+      FL D:/ISE/stopwatch_sportsman_Sche/div2.vhf EN work/FTC_MXILINX_div2 1511489023 \
+      CP XOR2 CP FDC
+EN work/div2 1511489025 \
+      FL D:/ISE/stopwatch_sportsman_Sche/div2.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/div2/BEHAVIORAL 1511489026 \
+      FL D:/ISE/stopwatch_sportsman_Sche/div2.vhf EN work/div2 1511489025 \
+      CP FTC_MXILINX_div2 CP VCC CP GND
+FL D:/ISE/stopwatch_sportsman_Sche/div5.vhf 2017/11/17.10:05:36 P.20131013
+EN work/div5 1511489027 FL D:/ISE/stopwatch_sportsman_Sche/div5.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/div5/BEHAVIORAL 1511489028 \
+      FL D:/ISE/stopwatch_sportsman_Sche/div5.vhf EN work/div5 1511489027 CP FD \
+      CP AND3B2 CP AND2B2 CP OR2 CP OR2B1 CP AND2
+FL D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_2.vhf 2017/11/24.01:54:45 P.20131013
+EN work/SOP4_MXILINX_exp_2_1_16_2 1511489029 \
+      FL D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_2.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/SOP4_MXILINX_exp_2_1_16_2/BEHAVIORAL 1511489030 \
+      FL D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_2.vhf \
+      EN work/SOP4_MXILINX_exp_2_1_16_2 1511489029 CP AND2 CP OR2
+EN work/exp_2_1_16_2 1511489031 \
+      FL D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_2.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/exp_2_1_16_2/BEHAVIORAL 1511489032 \
+      FL D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_2.vhf EN work/exp_2_1_16_2 1511489031 \
+      CP AND2 CP NOR2 CP INV CP XNOR2 CP NOR3 CP OR5 CP SOP4_MXILINX_exp_2_1_16_2 \
+      CP FDC
+FL D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_5.vhf 2017/11/24.09:51:50 P.20131013
+EN work/SOP4_MXILINX_exp_2_1_16_5 1511489009 \
+      FL D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_5.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/SOP4_MXILINX_exp_2_1_16_5/BEHAVIORAL 1511489010 \
+      FL D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_5.vhf \
+      EN work/SOP4_MXILINX_exp_2_1_16_5 1511489009 CP AND2 CP OR2
+EN work/exp_2_1_16_2_MUSER_exp_2_1_16_5 1511489011 \
+      FL D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_5.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/exp_2_1_16_2_MUSER_exp_2_1_16_5/BEHAVIORAL 1511489012 \
+      FL D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_5.vhf \
+      EN work/exp_2_1_16_2_MUSER_exp_2_1_16_5 1511489011 CP AND2 CP NOR2 CP INV \
+      CP XNOR2 CP NOR3 CP OR5 CP SOP4_MXILINX_exp_2_1_16_5 CP FDC
+EN work/exp_2_1_16_5 1511489013 \
+      FL D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_5.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/exp_2_1_16_5/BEHAVIORAL 1511489014 \
+      FL D:/ISE/stopwatch_sportsman_Sche/exp_2_1_16_5.vhf EN work/exp_2_1_16_5 1511489013 \
+      CP INV CP exp_2_1_16_2_MUSER_exp_2_1_16_5 CP VCC CP GND CP AND4 CP NAND2
+FL D:/ISE/stopwatch_sportsman_Sche/freq_div.vhf 2017/11/18.16:53:10 P.20131013
+EN work/FTC_MXILINX_freq_div 1511489015 \
+      FL D:/ISE/stopwatch_sportsman_Sche/freq_div.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTC_MXILINX_freq_div/BEHAVIORAL 1511489016 \
+      FL D:/ISE/stopwatch_sportsman_Sche/freq_div.vhf \
+      EN work/FTC_MXILINX_freq_div 1511489015 CP XOR2 CP FDC
+EN work/div2_MUSER_freq_div 1511489017 \
+      FL D:/ISE/stopwatch_sportsman_Sche/freq_div.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/div2_MUSER_freq_div/BEHAVIORAL 1511489018 \
+      FL D:/ISE/stopwatch_sportsman_Sche/freq_div.vhf EN work/div2_MUSER_freq_div 1511489017 \
+      CP FTC_MXILINX_freq_div CP VCC CP GND
+EN work/div5_MUSER_freq_div 1511489019 \
+      FL D:/ISE/stopwatch_sportsman_Sche/freq_div.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/div5_MUSER_freq_div/BEHAVIORAL 1511489020 \
+      FL D:/ISE/stopwatch_sportsman_Sche/freq_div.vhf EN work/div5_MUSER_freq_div 1511489019 \
+      CP FD CP AND3B2 CP AND2B2 CP OR2 CP OR2B1 CP AND2
+EN work/freq_div 1511489021 \
+      FL D:/ISE/stopwatch_sportsman_Sche/freq_div.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/freq_div/BEHAVIORAL 1511489022 \
+      FL D:/ISE/stopwatch_sportsman_Sche/freq_div.vhf EN work/freq_div 1511489021 \
+      CP div2_MUSER_freq_div CP div5_MUSER_freq_div
+FL D:/ISE/stopwatch_sportsman_Sche/JK_FlipFlop.vhf 2017/11/18.15:11:34 P.20131013
+EN work/JK_FlipFlop 1510995221 FL D:/ISE/stopwatch_sportsman_Sche/JK_FlipFlop.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/JK_FlipFlop/BEHAVIORAL 1510995222 \
+      FL D:/ISE/stopwatch_sportsman_Sche/JK_FlipFlop.vhf EN work/JK_FlipFlop 1510995221 \
+      CP NAND4 CP AND3 CP NOR2
+FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf 2017/11/24.10:03:08 P.20131013
+EN work/FJKRSE_MXILINX_stopwatch_sportsman_Sche 1511488991 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKRSE_MXILINX_stopwatch_sportsman_Sche/BEHAVIORAL 1511488992 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      EN work/FJKRSE_MXILINX_stopwatch_sportsman_Sche 1511488991 CP FDRE CP AND3B2 \
+      CP AND3B1 CP AND2B1 CP OR4 CP OR2
+EN work/SOP4_MXILINX_stopwatch_sportsman_Sche 1511488993 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/SOP4_MXILINX_stopwatch_sportsman_Sche/BEHAVIORAL 1511488994 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      EN work/SOP4_MXILINX_stopwatch_sportsman_Sche 1511488993 CP AND2 CP OR2
+EN work/exp_2_1_16_2_MUSER_stopwatch_sportsman_Sche 1511488995 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/exp_2_1_16_2_MUSER_stopwatch_sportsman_Sche/BEHAVIORAL 1511488996 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      EN work/exp_2_1_16_2_MUSER_stopwatch_sportsman_Sche 1511488995 CP AND2 \
+      CP NOR2 CP INV CP XNOR2 CP NOR3 CP OR5 CP SOP4_MXILINX_stopwatch_sportsman_Sche \
+      CP FDC
+EN work/exp_2_1_16_5_MUSER_stopwatch_sportsman_Sche 1511488997 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/exp_2_1_16_5_MUSER_stopwatch_sportsman_Sche/BEHAVIORAL 1511488998 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      EN work/exp_2_1_16_5_MUSER_stopwatch_sportsman_Sche 1511488997 CP INV \
+      CP exp_2_1_16_2_MUSER_stopwatch_sportsman_Sche CP VCC CP GND CP AND4 CP NAND2
+EN work/FTC_MXILINX_stopwatch_sportsman_Sche 1511488999 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTC_MXILINX_stopwatch_sportsman_Sche/BEHAVIORAL 1511489000 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      EN work/FTC_MXILINX_stopwatch_sportsman_Sche 1511488999 CP XOR2 CP FDC
+EN work/div2_MUSER_stopwatch_sportsman_Sche 1511489001 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/div2_MUSER_stopwatch_sportsman_Sche/BEHAVIORAL 1511489002 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      EN work/div2_MUSER_stopwatch_sportsman_Sche 1511489001 \
+      CP FTC_MXILINX_stopwatch_sportsman_Sche CP VCC CP GND
+EN work/div5_MUSER_stopwatch_sportsman_Sche 1511489003 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/div5_MUSER_stopwatch_sportsman_Sche/BEHAVIORAL 1511489004 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      EN work/div5_MUSER_stopwatch_sportsman_Sche 1511489003 CP FD CP AND3B2 \
+      CP AND2B2 CP OR2 CP OR2B1 CP AND2
+EN work/freq_div_MUSER_stopwatch_sportsman_Sche 1511489005 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/freq_div_MUSER_stopwatch_sportsman_Sche/BEHAVIORAL 1511489006 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      EN work/freq_div_MUSER_stopwatch_sportsman_Sche 1511489005 \
+      CP div2_MUSER_stopwatch_sportsman_Sche \
+      CP div5_MUSER_stopwatch_sportsman_Sche
+EN work/stopwatch_sportsman_Sche 1511489007 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/stopwatch_sportsman_Sche/BEHAVIORAL 1511489008 \
+      FL D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.vhf \
+      EN work/stopwatch_sportsman_Sche 1511489007 \
+      CP freq_div_MUSER_stopwatch_sportsman_Sche CP VCC \
+      CP FJKRSE_MXILINX_stopwatch_sportsman_Sche CP GND CP AND2B1 \
+      CP exp_2_1_16_5_MUSER_stopwatch_sportsman_Sche CP bus_tap CP display CP OR2 \
+      CP AND2 CP NAND2 CP AND4

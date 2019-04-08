@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl BCD_7seg_drc.vhf -w D:/ISE/Schematic_draft/BCD_7seg.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl BCD_7seg_drc.vhf -w D:/ISE/Schematic_draft/BCD_7seg.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl BCD_7seg_drc.vhf -w D:/ISE/Schematic_draft/BCD_7seg.sch 
+sch2sym -intstyle ise -family spartan3e -refsym BCD_7seg D:/ISE/Schematic_draft/BCD_7seg.sch D:/ISE/Schematic_draft/BCD_7seg.sym 

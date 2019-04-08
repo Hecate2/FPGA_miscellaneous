@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj vending -o D:/ISE/vending/display.vhi -lib work D:/ISE/vending//vending.v -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

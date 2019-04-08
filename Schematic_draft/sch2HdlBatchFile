@@ -1,0 +1,3 @@
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/ISE/Schematic_draft/BCD_7seg.vhf,-w,D:/ISE/Schematic_draft/BCD_7seg.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/ISE/Schematic_draft/display.vhf,-w,D:/ISE/Schematic_draft/display.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,D:/ISE/Schematic_draft/display.vhf,-w,D:/ISE/Schematic_draft/display.sch

@@ -1,0 +1,33 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/ISE/Summator_Sche/Summator_Sche_Summator_Sche_sch_tb_isim_beh.exe -prj D:/ISE/Summator_Sche/Summator_Sche_Summator_Sche_sch_tb_beh.prj work.Summator_Sche_Summator_Sche_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/ISE/Summator_Sche/Summator_Sche.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "D:/ISE/Summator_Sche/Summator_Sche.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Summator_Sche_Summator_Sche_sch_...
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture xor2_v of entity XOR2 [xor2_default]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture and3_v of entity AND3 [and3_default]
+Compiling architecture or3_v of entity OR3 [or3_default]
+Compiling architecture and4_v of entity AND4 [and4_default]
+Compiling architecture or4_v of entity OR4 [or4_default]
+Compiling architecture behavioral of entity Summator_Sche [summator_sche_default]
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 24 VHDL Units
+Compiled 2 Verilog Units
+Built simulation executable D:/ISE/Summator_Sche/Summator_Sche_Summator_Sche_sch_tb_isim_beh.exe
+Fuse Memory Usage: 48320 KB
+Fuse CPU Usage: 1638 ms

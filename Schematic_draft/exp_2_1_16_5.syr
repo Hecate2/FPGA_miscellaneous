@@ -1,0 +1,216 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.48 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.48 secs
+ 
+--> Reading design: exp_2_1_16_5.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "exp_2_1_16_5.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "exp_2_1_16_5"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : exp_2_1_16_5
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" in Library work.
+Entity <SOP4_MXILINX_exp_2_1_16_2> compiled.
+Entity <SOP4_MXILINX_exp_2_1_16_2> (Architecture <BEHAVIORAL>) compiled.
+ERROR:HDLParsers:163 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 88. Unexpected symbol read: _.
+ERROR:HDLParsers:163 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 89. Unexpected symbol read: _.
+ERROR:HDLParsers:3010 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 97. Entity exp_2_1_16_2 does not exist.
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 100. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 100. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 135. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 135. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 142. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 142. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 148. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 148. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 155. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 155. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 164. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 164. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 171. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 171. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 181. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 181. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 193. Undefined symbol 'QA'.
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 193. Undefined symbol 'QA_DUMMY'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 193. QA_DUMMY: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 194. Undefined symbol 'QB'.
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 194. Undefined symbol 'QB_DUMMY'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 194. QB_DUMMY: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 195. Undefined symbol 'QC'.
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 195. Undefined symbol 'QC_DUMMY'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 195. QC_DUMMY: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 196. Undefined symbol 'QD'.  Should it be: fD?
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 196. Undefined symbol 'QD_DUMMY'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 196. QD_DUMMY: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 198. Undefined symbol 'XLXN_25'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 198. XLXN_25: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 199. Undefined symbol 'XLXN_26'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 199. XLXN_26: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 200. Undefined symbol 'XLXN_31'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 200. XLXN_31: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 203. Undefined symbol 'XLXN_23'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 203. XLXN_23: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 205. Undefined symbol 'XLXN_29'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 205. XLXN_29: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 208. Undefined symbol 'XLXN_3'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 208. XLXN_3: Undefined symbol (last report in this block)
+ERROR:HDLParsers:163 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 209. Unexpected symbol read: _.
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 209. Undefined symbol 'LOAD'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 209. LOAD: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 210. Undefined symbol 'XLXN_137'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 210. XLXN_137: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 215. Undefined symbol 'XLXN_139'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 215. XLXN_139: Undefined symbol (last report in this block)
+ERROR:HDLParsers:163 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 218. Unexpected symbol read: _.
+ERROR:HDLParsers:3313 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 218. Undefined symbol 'CLR'.  Should it be: CR?
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 218. CLR: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 222. Undefined symbol 'XLXN_103'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 222. XLXN_103: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 226. Undefined symbol 'ENT'.  Should it be: EoT?
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 226. ENT: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 227. Undefined symbol 'XLXN_81'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 227. XLXN_81: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 232. Undefined symbol 'XLXN_58'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 232. XLXN_58: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 235. Undefined symbol 'XLXN_109'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 235. XLXN_109: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 237. Undefined symbol 'XLXN_59'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 237. XLXN_59: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 240. Undefined symbol 'XLXN_115'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 240. XLXN_115: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 242. Undefined symbol 'XLXN_134'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 242. XLXN_134: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 245. Undefined symbol 'XLXN_118'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 245. XLXN_118: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 246. Undefined symbol 'XLXN_32'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 246. XLXN_32: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 247. Undefined symbol 'XLXN_138'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 247. XLXN_138: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 258. Undefined symbol 'XLXN_24'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 258. XLXN_24: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 266. Undefined symbol 'clock'.  Should it be: block?
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 266. clock: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 267. Undefined symbol 'XLXN_172'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 267. XLXN_172: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 272. Undefined symbol 'XLXN_173'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 272. XLXN_173: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 277. Undefined symbol 'XLXN_174'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 277. XLXN_174: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 282. Undefined symbol 'XLXN_57'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 282. XLXN_57: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 291. Undefined symbol 'RCO'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 291. RCO: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 295. Undefined symbol 'ENP'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 295. ENP: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 302. Undefined symbol 'D'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 302. D: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 309. Undefined symbol 'C'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 309. C: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 316. Undefined symbol 'B'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 316. B: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 323. Undefined symbol 'A'.
+ERROR:HDLParsers:1209 - "D:/ISE/Schematic_draft/exp_2_1_16_2.vhf" Line 323. A: Undefined symbol (last report in this block)
+--> 
+
+Total memory usage is 250732 kilobytes
+
+Number of errors   :   99 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

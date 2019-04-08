@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/ISE/BCD_7_Sche/BCD_7_Sche_BCD_7_Sche_sch_tb_isim_beh.exe" -prj "D:/ISE/BCD_7_Sche/BCD_7_Sche_BCD_7_Sche_sch_tb_beh.prj" "work.BCD_7_Sche_BCD_7_Sche_sch_tb" "work.glbl" 

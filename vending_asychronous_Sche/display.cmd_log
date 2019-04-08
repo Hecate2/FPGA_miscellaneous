@@ -1,0 +1,14 @@
+vhdtdtfi -lib work D:/ISE/vending_asychronous_Sche/display.v -lang verilog -prj vending_asychronous_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/vending_asychronous_Sche/display.sym 
+vhdtdtfi -lib work D:/ISE/vending_asychronous_Sche/display.v -lang verilog -prj vending_asychronous_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/vending_asychronous_Sche/display.sym 
+vhdtdtfi -lib work D:/ISE/vending_asychronous_Sche/display.v -lang verilog -prj vending_asychronous_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/vending_asychronous_Sche/display.sym 
+vhdtdtfi -lib work D:/ISE/vending_asychronous_Sche/display.v -lang verilog -prj vending_asychronous_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/vending_asychronous_Sche/display.sym 
+vhdtdtfi -lib work D:/ISE/vending_asychronous_Sche/display.v -lang verilog -prj vending_asychronous_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/vending_asychronous_Sche/display.sym 
+vhdtdtfi -lib work D:/ISE/vending_asychronous_Sche/display.v -lang verilog -prj vending_asychronous_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/vending_asychronous_Sche/display.sym 
+vhdtdtfi -lib work D:/ISE/vending_asychronous_Sche/display.v -lang verilog -prj vending_asychronous_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/vending_asychronous_Sche/display.sym 

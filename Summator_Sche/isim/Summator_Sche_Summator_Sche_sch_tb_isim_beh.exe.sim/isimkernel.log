@@ -1,0 +1,28 @@
+Command line:
+   Summator_Sche_Summator_Sche_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1946
+
+Sat Oct 14 19:21:01 2017
+
+
+ Elaboration Time: 0.0624 sec
+
+ Current Memory Usage: 663.523 Meg
+
+ Total Signals          : 172
+ Total Nets             : 81
+ Total Signal Drivers   : 48
+ Total Blocks           : 36
+ Total Primitive Blocks : 34
+ Total Processes        : 50
+ Total Traceable Variables  : 39
+ Total Scalar Nets and Variables : 652
+
+ Total Simulation Time: 0.1404 sec
+
+ Current Memory Usage: 663.523 Meg
+
+Sat Oct 14 19:38:14 2017
+

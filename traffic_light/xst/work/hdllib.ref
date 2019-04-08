@@ -1,0 +1,4 @@
+MO display NULL traffic_light.v vlg1E/display.bin 1510392618
+MO test_traffic_light NULL test_traffic_light.v vlg11/test__traffic__light.bin 1510290458
+MO traffic_light NULL traffic_light.v vlg72/traffic__light.bin 1510392618
+MO state NULL traffic_light.v vlg09/state.bin 1510392618

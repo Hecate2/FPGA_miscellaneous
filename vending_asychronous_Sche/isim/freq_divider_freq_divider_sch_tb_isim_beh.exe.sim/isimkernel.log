@@ -1,0 +1,6 @@
+Command line:
+   freq_divider_freq_divider_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  5883
+

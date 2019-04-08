@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Oct 13 10:19:16 2017
+# Process ID: 5896
+# Log file: D:/ISE/Comparator_Sche/planAhead_run_1/planAhead.log
+# Journal file: D:/ISE/Comparator_Sche/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/ISE/Comparator_Sche/pa.fromNetlist.tcl

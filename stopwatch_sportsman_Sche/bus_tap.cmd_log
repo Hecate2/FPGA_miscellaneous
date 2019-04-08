@@ -1,0 +1,6 @@
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/bus_tap.v -lang verilog -prj stopwatch_sportsman_Sche -o bus_tap.spl -module bus_tap -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w bus_tap.spl D:/ISE/stopwatch_sportsman_Sche/bus_tap.sym 
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/bus_tap.v -lang verilog -prj stopwatch_sportsman_Sche -o bus_tap.spl -module bus_tap -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w bus_tap.spl D:/ISE/stopwatch_sportsman_Sche/bus_tap.sym 
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/bus_tap.v -lang verilog -prj stopwatch_sportsman_Sche -o bus_tap.spl -module bus_tap -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w bus_tap.spl D:/ISE/stopwatch_sportsman_Sche/bus_tap.sym 

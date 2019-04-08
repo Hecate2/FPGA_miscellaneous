@@ -1,0 +1,49 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : a1.vf
+// /___/   /\     Timestamp : 09/22/2017 18:50:15
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog D:/ISE/a/a1.vf -w D:/ISE/a/a1.sch
+//Design Name: a1
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module a1(SW5, 
+          SW6, 
+          SW7, 
+          LD6, 
+          LD7);
+
+   (* LOC = "F3" *) 
+    input SW5;
+   (* LOC = "E2" *) 
+    input SW6;
+   (* LOC = "N3" *) 
+    input SW7;
+   (* LOC = "P4" *) 
+   output LD6;
+   (* LOC = "G1" *) 
+   output LD7;
+   
+   wire LD7_DUMMY;
+   
+   assign LD7 = LD7_DUMMY;
+   AND2  XLXI_1 (.I0(SW6), 
+                .I1(SW7), 
+                .O(LD7_DUMMY));
+   AND2  XLXI_2 (.I0(SW5), 
+                .I1(LD7_DUMMY), 
+                .O(LD6));
+endmodule

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="163" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">88</arg>. Unexpected symbol read: <arg fmt="%s" index="3">_</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="163" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">89</arg>. Unexpected symbol read: <arg fmt="%s" index="3">_</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3010" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">97</arg>. Entity <arg fmt="%s" index="3">exp_2_1_16_2</arg> does not exist.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">100</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">std_logic</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">100</arg>. <arg fmt="%s" index="3">std_logic</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">135</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">std_logic</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">135</arg>. <arg fmt="%s" index="3">std_logic</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">142</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">std_logic</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">142</arg>. <arg fmt="%s" index="3">std_logic</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">148</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">std_logic</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">148</arg>. <arg fmt="%s" index="3">std_logic</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">155</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">std_logic</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">155</arg>. <arg fmt="%s" index="3">std_logic</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">164</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">std_logic</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">164</arg>. <arg fmt="%s" index="3">std_logic</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">171</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">std_logic</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">171</arg>. <arg fmt="%s" index="3">std_logic</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">181</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">std_logic</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">181</arg>. <arg fmt="%s" index="3">std_logic</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">193</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">QA</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">193</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">QA_DUMMY</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">193</arg>. <arg fmt="%s" index="3">QA_DUMMY</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">194</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">QB</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">194</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">QB_DUMMY</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">194</arg>. <arg fmt="%s" index="3">QB_DUMMY</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">195</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">QC</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">195</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">QC_DUMMY</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">195</arg>. <arg fmt="%s" index="3">QC_DUMMY</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3313" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">196</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">QD</arg>&apos;.  Should it be: <arg fmt="%s" index="4">fD</arg>?
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">196</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">QD_DUMMY</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">196</arg>. <arg fmt="%s" index="3">QD_DUMMY</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">198</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_25</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">198</arg>. <arg fmt="%s" index="3">XLXN_25</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">199</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_26</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">199</arg>. <arg fmt="%s" index="3">XLXN_26</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">200</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_31</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">200</arg>. <arg fmt="%s" index="3">XLXN_31</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">203</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_23</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">203</arg>. <arg fmt="%s" index="3">XLXN_23</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">205</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_29</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">205</arg>. <arg fmt="%s" index="3">XLXN_29</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">208</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_3</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">208</arg>. <arg fmt="%s" index="3">XLXN_3</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="163" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">209</arg>. Unexpected symbol read: <arg fmt="%s" index="3">_</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">209</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">LOAD</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">209</arg>. <arg fmt="%s" index="3">LOAD</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">210</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_137</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">210</arg>. <arg fmt="%s" index="3">XLXN_137</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">215</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_139</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">215</arg>. <arg fmt="%s" index="3">XLXN_139</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="163" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">218</arg>. Unexpected symbol read: <arg fmt="%s" index="3">_</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3313" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">218</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">CLR</arg>&apos;.  Should it be: <arg fmt="%s" index="4">CR</arg>?
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">218</arg>. <arg fmt="%s" index="3">CLR</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">222</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_103</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">222</arg>. <arg fmt="%s" index="3">XLXN_103</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3313" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">226</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">ENT</arg>&apos;.  Should it be: <arg fmt="%s" index="4">EoT</arg>?
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">226</arg>. <arg fmt="%s" index="3">ENT</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">227</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_81</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">227</arg>. <arg fmt="%s" index="3">XLXN_81</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">232</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_58</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">232</arg>. <arg fmt="%s" index="3">XLXN_58</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">235</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_109</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">235</arg>. <arg fmt="%s" index="3">XLXN_109</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">237</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_59</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">237</arg>. <arg fmt="%s" index="3">XLXN_59</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">240</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_115</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">240</arg>. <arg fmt="%s" index="3">XLXN_115</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">242</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_134</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">242</arg>. <arg fmt="%s" index="3">XLXN_134</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">245</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_118</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">245</arg>. <arg fmt="%s" index="3">XLXN_118</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">246</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_32</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">246</arg>. <arg fmt="%s" index="3">XLXN_32</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">247</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_138</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">247</arg>. <arg fmt="%s" index="3">XLXN_138</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">258</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_24</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">258</arg>. <arg fmt="%s" index="3">XLXN_24</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3313" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">266</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">clock</arg>&apos;.  Should it be: <arg fmt="%s" index="4">block</arg>?
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">266</arg>. <arg fmt="%s" index="3">clock</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">267</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_172</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">267</arg>. <arg fmt="%s" index="3">XLXN_172</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">272</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_173</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">272</arg>. <arg fmt="%s" index="3">XLXN_173</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">277</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_174</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">277</arg>. <arg fmt="%s" index="3">XLXN_174</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">282</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">XLXN_57</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">282</arg>. <arg fmt="%s" index="3">XLXN_57</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">291</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">RCO</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">291</arg>. <arg fmt="%s" index="3">RCO</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">295</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">ENP</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">295</arg>. <arg fmt="%s" index="3">ENP</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">302</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">D</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">302</arg>. <arg fmt="%s" index="3">D</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">309</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">C</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">309</arg>. <arg fmt="%s" index="3">C</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">316</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">B</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">316</arg>. <arg fmt="%s" index="3">B</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">323</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">A</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">D:/ISE/Schematic_draft/exp_2_1_16_2.vhf</arg>&quot; Line <arg fmt="%d" index="2">323</arg>. <arg fmt="%s" index="3">A</arg>: Undefined symbol (last report in this block)
+</msg>
+
+</messages>
+

@@ -1,0 +1,66 @@
+V3 54
+FL D:/ISE/vending_asychronous_Sche/D_FlipFlop.vhf 2017/10/29.15:22:26 P.20131013
+EN work/D_FlipFlop 1509271170 FL D:/ISE/vending_asychronous_Sche/D_FlipFlop.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/D_FlipFlop/BEHAVIORAL 1509271171 \
+      FL D:/ISE/vending_asychronous_Sche/D_FlipFlop.vhf EN work/D_FlipFlop 1509271170 \
+      CP NAND3
+FL D:/ISE/vending_asychronous_Sche/freq_divider.vhf 2017/10/29.16:36:34 P.20131013
+AR work/JK_FlipFlop_MUSER_freq_divider/BEHAVIORAL 1509264779 \
+      FL D:/ISE/vending_asychronous_Sche/freq_divider.vhf \
+      EN work/JK_FlipFlop_MUSER_freq_divider 1509264778 CP NAND4 CP AND3 CP NOR2
+AR work/FTCE_MXILINX_freq_divider/BEHAVIORAL 1509264781 \
+      FL D:/ISE/vending_asychronous_Sche/freq_divider.vhf \
+      EN work/FTCE_MXILINX_freq_divider 1509264780 CP XOR2 CP FDCE
+AR work/CB4CE_MXILINX_freq_divider/BEHAVIORAL 1509264783 \
+      FL D:/ISE/vending_asychronous_Sche/freq_divider.vhf \
+      EN work/CB4CE_MXILINX_freq_divider 1509264782 CP FTCE_MXILINX_freq_divider \
+      CP AND4 CP AND3 CP AND2 CP VCC
+EN work/D_FlipFlop_MUSER_freq_divider 1509266214 \
+      FL D:/ISE/vending_asychronous_Sche/freq_divider.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/D_FlipFlop_MUSER_freq_divider/BEHAVIORAL 1509266215 \
+      FL D:/ISE/vending_asychronous_Sche/freq_divider.vhf \
+      EN work/D_FlipFlop_MUSER_freq_divider 1509266214 CP NAND3
+EN work/freq_divider 1509266216 \
+      FL D:/ISE/vending_asychronous_Sche/freq_divider.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/freq_divider/BEHAVIORAL 1509266217 \
+      FL D:/ISE/vending_asychronous_Sche/freq_divider.vhf EN work/freq_divider 1509266216 \
+      CP D_FlipFlop_MUSER_freq_divider CP AND2B2 CP AND3B2 CP OR2 CP OR2B1 CP AND2 \
+      CP VCC
+FL D:/ISE/vending_asychronous_Sche/JK_FlipFlop.vhf 2017/10/29.15:22:26 P.20131013
+EN work/JK_FlipFlop 1509264786 FL D:/ISE/vending_asychronous_Sche/JK_FlipFlop.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/JK_FlipFlop/BEHAVIORAL 1509264787 \
+      FL D:/ISE/vending_asychronous_Sche/JK_FlipFlop.vhf EN work/JK_FlipFlop 1509264786 \
+      CP NAND4 CP AND3 CP NOR2
+FL D:/ISE/vending_asychronous_Sche/pulse_FlipFlop.vhf 2017/10/29.04:14:28 P.20131013
+FL D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf 2017/10/29.16:59:06 P.20131013
+EN work/D_FlipFlop_MUSER_vending_asychronous_Sche 1509271164 \
+      FL D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/D_FlipFlop_MUSER_vending_asychronous_Sche/BEHAVIORAL 1509271165 \
+      FL D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf \
+      EN work/D_FlipFlop_MUSER_vending_asychronous_Sche 1509271164 CP NAND3
+EN work/ADD4_MXILINX_vending_asychronous_Sche 1509271166 \
+      FL D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ADD4_MXILINX_vending_asychronous_Sche/BEHAVIORAL 1509271167 \
+      FL D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf \
+      EN work/ADD4_MXILINX_vending_asychronous_Sche 1509271166 CP MUXCY_L CP MUXCY \
+      CP MUXCY_D CP XORCY CP FMAP CP XOR2
+EN work/vending_asychronous_Sche 1509271168 \
+      FL D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/vending_asychronous_Sche/BEHAVIORAL 1509271169 \
+      FL D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf \
+      EN work/vending_asychronous_Sche 1509271168 \
+      CP D_FlipFlop_MUSER_vending_asychronous_Sche CP NOR2 CP VCC \
+      CP ADD4_MXILINX_vending_asychronous_Sche CP NAND2 CP display CP AND2B1 CP GND \
+      CP freq_div50M CP INV

@@ -1,0 +1,327 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: top_level_connection.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top_level_connection.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top_level_connection"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : top_level_connection
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "vending_asychronous.v" in library work
+Module <vending_asychronous> compiled
+Module <display> compiled
+Module <top_level_connection> compiled
+No errors in compilation
+Analysis of file <"top_level_connection.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <top_level_connection> in library <work>.
+
+Analyzing hierarchy for module <vending_asychronous> in library <work> with parameters.
+	s0 = "0000000000000000"
+	s0_5 = "0000000000000101"
+	s1 = "0000000000010000"
+	s1_5 = "0000000000010101"
+
+Analyzing hierarchy for module <display> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <top_level_connection>.
+WARNING:Xst:1611 - "vending_asychronous.v" line 89: Port data is declared twice. Second occurrence will be ignored.
+Module <top_level_connection> is correct for synthesis.
+ 
+Analyzing module <vending_asychronous> in library <work>.
+	s0 = 16'b0000000000000000
+	s0_5 = 16'b0000000000000101
+	s1 = 16'b0000000000010000
+	s1_5 = 16'b0000000000010101
+Module <vending_asychronous> is correct for synthesis.
+ 
+Analyzing module <display> in library <work>.
+WARNING:Xst:905 - "vending_asychronous.v" line 111: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <data>
+Module <display> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <drink> in unit <vending_asychronous> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <drink> in unit <vending_asychronous> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <change> in unit <vending_asychronous> has a constant value of 1 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <vending_asychronous>.
+    Related source file is "vending_asychronous.v".
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clk_50MHz> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 16-bit register for signal <state>.
+    Found 1-bit register for signal <change>.
+    Summary:
+	inferred  33 D-type flip-flop(s).
+Unit <vending_asychronous> synthesized.
+
+
+Synthesizing Unit <display>.
+    Related source file is "vending_asychronous.v".
+    Found 16x8-bit ROM for signal <duan>.
+    Found 1-bit register for signal <clk_400Hz>.
+    Found 32-bit up counter for signal <clk_cnt>.
+    Found 4-bit register for signal <wei_ctrl>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   5 D-type flip-flop(s).
+Unit <display> synthesized.
+
+
+Synthesizing Unit <top_level_connection>.
+    Related source file is "vending_asychronous.v".
+Unit <top_level_connection> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 5
+ 1-bit register                                        : 2
+ 16-bit register                                       : 2
+ 4-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <state_ren_15> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_ren_14> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_ren_13> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_ren_12> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_ren_11> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_ren_10> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_ren_9> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_ren_8> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_ren_7> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_ren_6> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_ren_5> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_ren_3> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_ren_1> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_15> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_14> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_13> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_12> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_11> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_10> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_9> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_8> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_7> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_6> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_5> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_3> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_2> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_1> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_0> (without init value) has a constant value of 0 in block <U0>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 38
+ Flip-Flops                                            : 38
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <state_ren_15> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_ren_14> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_ren_13> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_ren_12> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_ren_11> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_ren_10> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_ren_9> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_ren_8> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_ren_7> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_ren_6> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_ren_5> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_ren_3> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_ren_1> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_15> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_14> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_13> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_12> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_11> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_10> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_9> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_8> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_7> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_6> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_5> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_3> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_2> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_1> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state_0> (without init value) has a constant value of 0 in block <vending_asychronous>. This FF/Latch will be trimmed during the optimization process.
+
+ERROR:Xst:528 - Multi-source in Unit <vending_asychronous> on signal <drink>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <U0/drink> in Unit <vending_asychronous> is assigned to VCC
+
+ERROR:Xst:528 - Multi-source in Unit <vending_asychronous> on signal <change>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <U0/change>
+   Signal <U0/change> in Unit <vending_asychronous> is assigned to VCC
+
+ERROR:Xst:528 - Multi-source in Unit <vending_asychronous> on signal <state<4>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <U0/state_4>
+   Output signal of FD instance <U0/state_ren_4>
+   Signal <U0/state<4>> in Unit <vending_asychronous> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <vending_asychronous> on signal <state_ren_2>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <U0/state_ren_0>
+   Output signal of FD instance <U0/state_ren_2>
+   Signal <U0/state<0>> in Unit <vending_asychronous> is assigned to GND
+   Signal <U0/N0> in Unit <vending_asychronous> is assigned to GND
+   Signal <U0/state<1>> in Unit <vending_asychronous> is assigned to GND
+   Signal <U0/state<2>> in Unit <vending_asychronous> is assigned to GND
+   Signal <U0/state<3>> in Unit <vending_asychronous> is assigned to GND
+   Signal <U0/state<5>> in Unit <vending_asychronous> is assigned to GND
+   Signal <U0/state<6>> in Unit <vending_asychronous> is assigned to GND
+   Signal <U0/state<7>> in Unit <vending_asychronous> is assigned to GND
+   Signal <U0/state<8>> in Unit <vending_asychronous> is assigned to GND
+   Signal <U0/state<9>> in Unit <vending_asychronous> is assigned to GND
+   Signal <U0/state<10>> in Unit <vending_asychronous> is assigned to GND
+   Signal <U0/state<11>> in Unit <vending_asychronous> is assigned to GND
+   Signal <U0/state<12>> in Unit <vending_asychronous> is assigned to GND
+   Signal <U0/state<13>> in Unit <vending_asychronous> is assigned to GND
+   Signal <U0/state<14>> in Unit <vending_asychronous> is assigned to GND
+   Signal <U0/state<15>> in Unit <vending_asychronous> is assigned to GND
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.09 secs
+ 
+--> 
+
+Total memory usage is 251088 kilobytes
+
+Number of errors   :    4 (   0 filtered)
+Number of warnings :   60 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

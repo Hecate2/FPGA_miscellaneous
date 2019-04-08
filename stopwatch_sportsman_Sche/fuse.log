@@ -1,0 +1,32 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/ISE/stopwatch_sportsman_Sche/div5_div5_sch_tb_isim_beh.exe -prj D:/ISE/stopwatch_sportsman_Sche/div5_div5_sch_tb_beh.prj work.div5_div5_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/ISE/stopwatch_sportsman_Sche/test_div5.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "D:/ISE/stopwatch_sportsman_Sche/div5.vhf" into library work
+Parsing VHDL file "D:/ISE/stopwatch_sportsman_Sche/div10.vhf" into library work
+Parsing VHDL file "D:/ISE/stopwatch_sportsman_Sche/div16.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module div5_div5_sch_tb
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture fd_v of entity FD [\FD('0')\]
+Compiling architecture and3b2_v of entity AND3B2 [and3b2_default]
+Compiling architecture and2b2_v of entity AND2B2 [and2b2_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture or2b1_v of entity OR2B1 [or2b1_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture behavioral of entity div5 [div5_default]
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 18 VHDL Units
+Compiled 2 Verilog Units
+Built simulation executable D:/ISE/stopwatch_sportsman_Sche/div5_div5_sch_tb_isim_beh.exe
+Fuse Memory Usage: 48048 KB
+Fuse CPU Usage: 1778 ms

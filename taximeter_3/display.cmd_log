@@ -1,0 +1,4 @@
+vhdtdtfi -lang verilog -prj taximeter_3 -o D:/ISE/taximeter_3/display.vhi -lib work D:/ISE/taximeter_3//taximeter_3.v -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 
+vhdtdtfi -lib work D:/ISE/taximeter_3/taximeter_3.v -lang verilog -prj taximeter_3 -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e display.spl D:/ISE/taximeter_3/display.sym 
+vhdtdtfi -lang verilog -prj taximeter_3 -o D:/ISE/taximeter_3/display.vhi -lib work D:/ISE/taximeter_3//taximeter_3.v -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

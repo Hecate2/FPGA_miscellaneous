@@ -1,0 +1,11 @@
+NET "led[0]" LOC = M12;
+NET "led[1]" LOC = L13;
+NET "led[2]" LOC = P12;
+NET "led[3]" LOC = N11;
+NET "led[4]" LOC = N14;
+NET "led[5]" LOC = H12;
+NET "led[6]" LOC = L14;
+
+NET "EN" LOC = N3;
+NET "A[0]" LOC = F3;
+NET "A[1]" LOC = E2;

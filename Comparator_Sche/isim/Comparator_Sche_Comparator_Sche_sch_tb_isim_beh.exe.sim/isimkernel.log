@@ -1,0 +1,28 @@
+Command line:
+   Comparator_Sche_Comparator_Sche_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1988
+
+Sat Oct 14 19:57:53 2017
+
+
+ Elaboration Time: 0.0624 sec
+
+ Current Memory Usage: 663.523 Meg
+
+ Total Signals          : 199
+ Total Nets             : 82
+ Total Signal Drivers   : 49
+ Total Blocks           : 38
+ Total Primitive Blocks : 36
+ Total Processes        : 51
+ Total Traceable Variables  : 39
+ Total Scalar Nets and Variables : 653
+
+ Total Simulation Time: 0.1248 sec
+
+ Current Memory Usage: 663.523 Meg
+
+Sat Oct 14 20:06:41 2017
+

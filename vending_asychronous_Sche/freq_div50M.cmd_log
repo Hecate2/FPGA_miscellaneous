@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/ISE/vending_asychronous_Sche/freq_div50M.v -lang verilog -prj vending_asychronous_Sche -o freq_div50M.spl -module freq_div50M -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w freq_div50M.spl D:/ISE/vending_asychronous_Sche/freq_div50M.sym 

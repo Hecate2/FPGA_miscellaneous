@@ -1,0 +1,4 @@
+verilog work "freq_div50M.v"
+vhdl work "D_FlipFlop.vhf"
+verilog work "display.v"
+vhdl work "vending_asychronous_Sche.vhf"

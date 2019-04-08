@@ -1,0 +1,54 @@
+xst -intstyle ise -ifn "D:/ISE/b/Topsch.xst" -ofn "D:/ISE/b/Topsch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 Topsch.ngc Topsch.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Topsch_map.ncd Topsch.ngd Topsch.pcf 
+par -w -intstyle ise -ol high -t 1 Topsch_map.ncd Topsch.ncd Topsch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Topsch.twx Topsch.ncd -o Topsch.twr Topsch.pcf 
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Topsch_map.ncd Topsch.ngd Topsch.pcf 
+xst -intstyle ise -ifn "D:/ISE/b/Topsch.xst" -ofn "D:/ISE/b/Topsch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 Topsch.ngc Topsch.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Topsch_map.ncd Topsch.ngd Topsch.pcf 
+par -w -intstyle ise -ol high -t 1 Topsch_map.ncd Topsch.ncd Topsch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Topsch.twx Topsch.ncd -o Topsch.twr Topsch.pcf 
+netgen -intstyle ise -s 4  -pcf Topsch.pcf -sdf_anno true -sdf_path "netgen/map" -insert_glbl true -w -dir netgen/map -ofmt verilog -sim Topsch_map.ncd Topsch_map.v 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Topsch_preroute.twx Topsch_map.ncd -o Topsch_preroute.twr Topsch.pcf 
+bitgen -intstyle ise -f Topsch.ut Topsch.ncd 
+xst -intstyle ise -ifn "D:/ISE/b/Topsch.xst" -ofn "D:/ISE/b/Topsch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 Topsch.ngc Topsch.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Topsch_map.ncd Topsch.ngd Topsch.pcf 
+xst -intstyle ise -ifn "D:/ISE/b/Topsch.xst" -ofn "D:/ISE/b/Topsch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 Topsch.ngc Topsch.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Topsch_map.ncd Topsch.ngd Topsch.pcf 
+par -w -intstyle ise -ol high -t 1 Topsch_map.ncd Topsch.ncd Topsch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Topsch.twx Topsch.ncd -o Topsch.twr Topsch.pcf 
+bitgen -intstyle ise -f Topsch.ut Topsch.ncd 
+xst -intstyle ise -ifn "D:/ISE/b/Topsch.xst" -ofn "D:/ISE/b/Topsch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 Topsch.ngc Topsch.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Topsch_map.ncd Topsch.ngd Topsch.pcf 
+par -w -intstyle ise -ol high -t 1 Topsch_map.ncd Topsch.ncd Topsch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Topsch.twx Topsch.ncd -o Topsch.twr Topsch.pcf 
+bitgen -intstyle ise -f Topsch.ut Topsch.ncd 
+xst -intstyle ise -ifn "D:/ISE/b/Topsch.xst" -ofn "D:/ISE/b/Topsch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 Topsch.ngc Topsch.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Topsch_map.ncd Topsch.ngd Topsch.pcf 
+par -w -intstyle ise -ol high -t 1 Topsch_map.ncd Topsch.ncd Topsch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Topsch.twx Topsch.ncd -o Topsch.twr Topsch.pcf 
+bitgen -intstyle ise -f Topsch.ut Topsch.ncd 
+xst -intstyle ise -ifn "D:/ISE/b/Topsch.xst" -ofn "D:/ISE/b/Topsch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 Topsch.ngc Topsch.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Topsch_map.ncd Topsch.ngd Topsch.pcf 
+par -w -intstyle ise -ol high -t 1 Topsch_map.ncd Topsch.ncd Topsch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Topsch.twx Topsch.ncd -o Topsch.twr Topsch.pcf 
+bitgen -intstyle ise -f Topsch.ut Topsch.ncd 
+xst -intstyle ise -ifn "D:/ISE/b/Topsch.xst" -ofn "D:/ISE/b/Topsch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 Topsch.ngc Topsch.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Topsch_map.ncd Topsch.ngd Topsch.pcf 
+par -w -intstyle ise -ol high -t 1 Topsch_map.ncd Topsch.ncd Topsch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Topsch.twx Topsch.ncd -o Topsch.twr Topsch.pcf 
+bitgen -intstyle ise -f Topsch.ut Topsch.ncd 
+xst -intstyle ise -ifn "D:/ISE/b/Topsch.xst" -ofn "D:/ISE/b/Topsch.syr" 
+xst -intstyle ise -ifn "D:/ISE/b/Topsch.xst" -ofn "D:/ISE/b/Topsch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 Topsch.ngc Topsch.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Topsch_map.ncd Topsch.ngd Topsch.pcf 
+par -w -intstyle ise -ol high -t 1 Topsch_map.ncd Topsch.ncd Topsch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Topsch.twx Topsch.ncd -o Topsch.twr Topsch.pcf 
+bitgen -intstyle ise -f Topsch.ut Topsch.ncd 

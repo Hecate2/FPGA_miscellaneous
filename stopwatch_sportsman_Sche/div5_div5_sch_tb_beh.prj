@@ -1,0 +1,5 @@
+vhdl work "div5.vhf"
+verilog work "test_div5.v"
+vhdl work "div10.vhf"
+vhdl work "div16.vhf"
+verilog work "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

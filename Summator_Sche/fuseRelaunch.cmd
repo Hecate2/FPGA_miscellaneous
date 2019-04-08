@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/ISE/Summator_Sche/Summator_Sche_Summator_Sche_sch_tb_isim_beh.exe" -prj "D:/ISE/Summator_Sche/Summator_Sche_Summator_Sche_sch_tb_beh.prj" "work.Summator_Sche_Summator_Sche_sch_tb" "work.glbl" 

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\ISE\Comparator\impact.xsl
+OUTFILE=D:\ISE\Comparator\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=D:\ISE\Comparator
+LICENSE=iMPACT
+USER_INFO=iMPACT

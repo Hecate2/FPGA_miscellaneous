@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/ISE/BCD-7/testsource_SSD_4_7_isim_beh.exe" -prj "D:/ISE/BCD-7/testsource_SSD_4_7_beh.prj" "work.testsource_SSD_4_7" "work.glbl" 

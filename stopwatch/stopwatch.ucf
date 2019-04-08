@@ -1,0 +1,39 @@
+# PlanAhead Generated physical constraints 
+
+NET "CLK" LOC = B8;
+NET "CLR" LOC = P11;
+NET "PAUSE" LOC = G12;
+NET "WARN" LOC = M5;
+NET "display[0]" LOC = F12;
+NET "display[1]" LOC = J12;
+NET "display[2]" LOC = M13;
+NET "display[3]" LOC = K14;
+NET "out_display[0]" LOC = L14;
+NET "out_display[1]" LOC = H12;
+NET "out_display[2]" LOC = N14;
+NET "out_display[3]" LOC = N11;
+NET "out_display[4]" LOC = P12;
+NET "out_display[5]" LOC = L13;
+NET "out_display[6]" LOC = M12;
+NET "out_display[7]" LOC = N13;
+NET "CLR" CLOCK_DEDICATED_ROUTE = FALSE;
+
+# PlanAhead Generated IO constraints 
+
+NET "CLK" IOSTANDARD = LVCMOS33;
+NET "CLR" IOSTANDARD = LVCMOS33;
+NET "PAUSE" IOSTANDARD = LVCMOS33;
+NET "WARN" IOSTANDARD = LVCMOS33;
+NET "display[0]" IOSTANDARD = LVCMOS33;
+NET "display[1]" IOSTANDARD = LVCMOS33;
+NET "display[2]" IOSTANDARD = LVCMOS33;
+NET "display[3]" IOSTANDARD = LVCMOS33;
+NET "out_display[0]" IOSTANDARD = LVCMOS33;
+NET "out_display[1]" IOSTANDARD = LVCMOS33;
+NET "out_display[2]" IOSTANDARD = LVCMOS33;
+NET "out_display[3]" IOSTANDARD = LVCMOS33;
+NET "out_display[4]" IOSTANDARD = LVCMOS33;
+NET "out_display[5]" IOSTANDARD = LVCMOS33;
+NET "out_display[6]" IOSTANDARD = LVCMOS33;
+NET "out_display[7]" IOSTANDARD = LVCMOS33;
+NET "CLK" DRIVE = 12;

@@ -1,0 +1,28 @@
+Command line:
+   freq_div_freq_div_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1440
+
+Fri Nov 24 00:52:08 2017
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 667.726 Meg
+
+ Total Signals          : 507
+ Total Nets             : 186
+ Total Signal Drivers   : 153
+ Total Blocks           : 120
+ Total Primitive Blocks : 96
+ Total Processes        : 156
+ Total Traceable Variables  : 70
+ Total Scalar Nets and Variables : 788
+
+ Total Simulation Time: 4.02483 sec
+
+ Current Memory Usage: 982.299 Meg
+
+Fri Nov 24 00:52:40 2017
+

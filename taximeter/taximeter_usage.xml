@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="9">
+<DesignStatistics TimeStamp="Wed Nov 15 22:23:55 2017"><group name="NetStatistics">
+<item name="NumNets_Active" rev="8">
+<attrib name="value" value="7"/></item>
+<item name="NumNets_Vcc" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_INPUT" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_VCCOUT" rev="8">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="SiteStatistics">
+<item name="IBUF-DIFFM" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="IBUF-DIFFMI" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="IOB-DIFFM" rev="8">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="9">
+<attrib name="value" value="13"/></item>
+<item name="AGG_IO" rev="9">
+<attrib name="value" value="13"/></item>
+<item name="NUM_BONDED_IBUF" rev="9">
+<attrib name="value" value="9"/></item>
+<item name="NUM_BONDED_IOB" rev="9">
+<attrib name="value" value="4"/></item>
+</group>
+</DesignStatistics>
+<ReportConfigData TimeStamp="Wed Nov 15 22:17:25 2017"><group name="IBUF_PAD">
+<item name="IOATTRBOX" rev="8">
+<attrib name="LVCMOS25" value="3"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="8">
+<attrib name="IN_INV" value="0"/><attrib name="IN" value="1"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="DRIVEATTRBOX" rev="8">
+<attrib name="12" value="1"/></item>
+<item name="IOATTRBOX" rev="8">
+<attrib name="LVCMOS25" value="1"/></item>
+<item name="SLEW" rev="8">
+<attrib name="SLOW" value="1"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="8">
+<attrib name="O1_INV" value="0"/><attrib name="O1" value="1"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Wed Nov 15 22:17:25 2017"><group name="IBUF_PAD">
+<item name="PAD" rev="8">
+<attrib name="value" value="3"/></item>
+</group>
+<group name="IBUF_INBUF">
+<item name="IN" rev="8">
+<attrib name="value" value="3"/></item>
+<item name="OUT" rev="8">
+<attrib name="value" value="3"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="OUT" rev="8">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IBUF">
+<item name="I" rev="8">
+<attrib name="value" value="3"/></item>
+<item name="PAD" rev="8">
+<attrib name="value" value="3"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="PAD" rev="8">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="PAD" rev="8">
+<attrib name="value" value="1"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

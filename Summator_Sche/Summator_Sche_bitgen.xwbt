@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\ISE\Summator_Sche\Summator_Sche.ncd
+OUTFILE=D:\ISE\Summator_Sche\Summator_Sche.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=D:\ISE\Summator_Sche
+LICENSE=ISE
+USER_INFO=135256_15690819_173552794_661

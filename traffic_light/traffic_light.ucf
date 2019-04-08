@@ -1,0 +1,25 @@
+NET "sm_duan[0]" LOC = L14;
+NET "sm_duan[1]" LOC = H12;
+NET "sm_duan[2]" LOC = N14;
+NET "sm_duan[3]" LOC = N11;
+NET "sm_duan[4]" LOC = P12;
+NET "sm_duan[5]" LOC = L13;
+NET "sm_duan[6]" LOC = M12;
+NET "sm_duan[7]" LOC = N13;
+NET "sm_wei[3]" LOC = K14;
+NET "sm_wei[2]" LOC = M13;
+NET "sm_wei[1]" LOC = J12;
+NET "sm_wei[0]" LOC = F12;
+
+NET "clk_50MHz" LOC = B8;
+NET "clk_1Hz" LOC = G1;
+
+//绿灯需要闪烁，故全部起名为flashlight
+NET "light[5]" LOC = N4;
+NET "light[4]" LOC = N5;
+NET "flashlight3" LOC = P6;
+NET "light[2]" LOC = P7;
+NET "light[1]" LOC = M11;
+NET "flashlight0" LOC = M5;
+
+NET "reset" LOC = A7;

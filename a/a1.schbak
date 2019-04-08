@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing version="7">
+    <attr value="spartan3e" name="DeviceFamilyName">
+        <trait delete="all:0" />
+        <trait editname="all:0" />
+        <trait edittrait="all:0" />
+    </attr>
+    <netlist>
+        <signal name="XLXN_6" />
+        <signal name="B0" />
+        <signal name="A0" />
+        <signal name="A1" />
+        <signal name="B1" />
+        <signal name="A2" />
+        <signal name="XLXN_17" />
+        <port polarity="Output" name="B0" />
+        <port polarity="Input" name="A0" />
+        <port polarity="Input" name="A1" />
+        <port polarity="Output" name="B1" />
+        <port polarity="Input" name="A2" />
+        <blockdef name="and2">
+            <timestamp>2000-1-1T10:10:10</timestamp>
+            <line x2="64" y1="-64" y2="-64" x1="0" />
+            <line x2="64" y1="-128" y2="-128" x1="0" />
+            <line x2="192" y1="-96" y2="-96" x1="256" />
+            <arc ex="144" ey="-144" sx="144" sy="-48" r="48" cx="144" cy="-96" />
+            <line x2="64" y1="-48" y2="-48" x1="144" />
+            <line x2="144" y1="-144" y2="-144" x1="64" />
+            <line x2="64" y1="-48" y2="-144" x1="64" />
+        </blockdef>
+        <block symbolname="and2" name="XLXI_1">
+            <blockpin signalname="A1" name="I0" />
+            <blockpin signalname="A0" name="I1" />
+            <blockpin signalname="B0" name="O" />
+        </block>
+        <block symbolname="and2" name="XLXI_2">
+            <blockpin signalname="A2" name="I0" />
+            <blockpin signalname="B0" name="I1" />
+            <blockpin signalname="B1" name="O" />
+        </block>
+    </netlist>
+    <sheet sheetnum="1" width="3520" height="2720">
+        <instance x="1408" y="1008" name="XLXI_1" orien="R0" />
+        <branch name="A0">
+            <wire x2="1408" y1="880" y2="880" x1="1376" />
+        </branch>
+        <branch name="A1">
+            <wire x2="1408" y1="944" y2="944" x1="1376" />
+        </branch>
+        <iomarker fontsize="28" x="1376" y="880" name="A0" orien="R180" />
+        <iomarker fontsize="28" x="1376" y="944" name="A1" orien="R180" />
+        <branch name="B1">
+            <wire x2="2320" y1="1456" y2="1456" x1="2304" />
+            <wire x2="2352" y1="1456" y2="1456" x1="2320" />
+        </branch>
+        <branch name="A2">
+            <wire x2="2032" y1="1488" y2="1488" x1="2000" />
+            <wire x2="2048" y1="1488" y2="1488" x1="2032" />
+        </branch>
+        <instance x="2048" y="1552" name="XLXI_2" orien="R0" />
+        <branch name="B0">
+            <wire x2="1856" y1="912" y2="912" x1="1664" />
+            <wire x2="1952" y1="912" y2="912" x1="1856" />
+            <wire x2="1856" y1="912" y2="1424" x1="1856" />
+            <wire x2="2048" y1="1424" y2="1424" x1="1856" />
+        </branch>
+        <iomarker fontsize="28" x="2000" y="1488" name="A2" orien="R180" />
+        <iomarker fontsize="28" x="2352" y="1456" name="B1" orien="R0" />
+        <iomarker fontsize="28" x="1952" y="912" name="B0" orien="R0" />
+    </sheet>
+</drawing>

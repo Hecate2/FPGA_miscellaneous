@@ -1,0 +1,239 @@
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/stopwatch_sportsman_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stopwatch_sportsman_Sche.ucf -p xc3s100e-cp132-4 stopwatch_sportsman_Sche.ngc stopwatch_sportsman_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ngd stopwatch_sportsman_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_sportsman_Sche_map.ncd stopwatch_sportsman_Sche.ncd stopwatch_sportsman_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch_sportsman_Sche.twx stopwatch_sportsman_Sche.ncd -o stopwatch_sportsman_Sche.twr stopwatch_sportsman_Sche.pcf -ucf stopwatch_sportsman_Sche.ucf 
+bitgen -intstyle ise -f stopwatch_sportsman_Sche.ut stopwatch_sportsman_Sche.ncd 

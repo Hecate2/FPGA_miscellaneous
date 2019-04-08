@@ -1,0 +1,32 @@
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/display.v -lang verilog -prj stopwatch_sportsman_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/stopwatch_sportsman_Sche/display.sym 
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/display.v -lang verilog -prj stopwatch_sportsman_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/stopwatch_sportsman_Sche/display.sym 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/display.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/display.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/display.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/display.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/display.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/display.syr" 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/display.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/display.syr" 
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/display.v -lang verilog -prj stopwatch_sportsman_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/stopwatch_sportsman_Sche/display.sym 
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/display.v -lang verilog -prj stopwatch_sportsman_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/stopwatch_sportsman_Sche/display.sym 
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/display.v -lang verilog -prj stopwatch_sportsman_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/stopwatch_sportsman_Sche/display.sym 
+xst -intstyle ise -ifn "D:/ISE/stopwatch_sportsman_Sche/display.xst" -ofn "D:/ISE/stopwatch_sportsman_Sche/display.syr" 
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/display.v -lang verilog -prj stopwatch_sportsman_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/stopwatch_sportsman_Sche/display.sym 
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/display.v -lang verilog -prj stopwatch_sportsman_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/stopwatch_sportsman_Sche/display.sym 
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/display.v -lang verilog -prj stopwatch_sportsman_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/stopwatch_sportsman_Sche/display.sym 
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/display.v -lang verilog -prj stopwatch_sportsman_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/stopwatch_sportsman_Sche/display.sym 
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/display.v -lang verilog -prj stopwatch_sportsman_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/stopwatch_sportsman_Sche/display.sym 
+vhdtdtfi -lang verilog -prj stopwatch_sportsman_Sche -o D:/ISE/stopwatch_sportsman_Sche/display.vhi -lib work D:/ISE/stopwatch_sportsman_Sche//display.v -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/display.v -lang verilog -prj stopwatch_sportsman_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/stopwatch_sportsman_Sche/display.sym 
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/display.v -lang verilog -prj stopwatch_sportsman_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/stopwatch_sportsman_Sche/display.sym 
+vhdtdtfi -lib work D:/ISE/stopwatch_sportsman_Sche/display.v -lang verilog -prj stopwatch_sportsman_Sche -o display.spl -module display -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w display.spl D:/ISE/stopwatch_sportsman_Sche/display.sym 

@@ -1,0 +1,456 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: BIN_BCD_4.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "BIN_BCD_4.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "BIN_BCD_4"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : BIN_BCD_4
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "binary_BCD.v" in library work
+Module <BIN_BCD_4> compiled
+No errors in compilation
+Analysis of file <"BIN_BCD_4.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <BIN_BCD_4> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <BIN_BCD_4>.
+Module <BIN_BCD_4> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <BIN_BCD_4>.
+    Related source file is "binary_BCD.v".
+WARNING:Xst:646 - Signal <TEMP> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <C> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 4-bit register for signal <BB>.
+    Found 4-bit register for signal <BG>.
+    Found 4-bit register for signal <BQ>.
+    Found 4-bit register for signal <BS>.
+    Found 4-bit register for signal <BW>.
+    Found 4-bit adder for signal <$add0000> created at line 40.
+    Found 4-bit adder for signal <$add0001> created at line 40.
+    Found 4-bit adder for signal <$add0002> created at line 40.
+    Found 4-bit adder for signal <$add0003> created at line 40.
+    Found 4-bit adder for signal <$add0004> created at line 44.
+    Found 4-bit adder for signal <$add0005> created at line 40.
+    Found 4-bit adder for signal <$add0006> created at line 44.
+    Found 4-bit adder for signal <$add0007> created at line 40.
+    Found 4-bit adder for signal <$add0008> created at line 44.
+    Found 4-bit adder for signal <$add0009> created at line 40.
+    Found 4-bit adder for signal <$add0010> created at line 44.
+    Found 4-bit adder for signal <$add0011> created at line 48.
+    Found 4-bit adder for signal <$add0012> created at line 40.
+    Found 4-bit adder for signal <$add0013> created at line 44.
+    Found 4-bit adder for signal <$add0014> created at line 48.
+    Found 4-bit adder for signal <$add0015> created at line 40.
+    Found 4-bit adder for signal <$add0016> created at line 44.
+    Found 4-bit adder for signal <$add0017> created at line 48.
+    Found 4-bit adder for signal <$add0018> created at line 40.
+    Found 4-bit adder for signal <$add0019> created at line 44.
+    Found 4-bit adder for signal <$add0020> created at line 48.
+    Found 4-bit adder for signal <$add0021> created at line 52.
+    Found 4-bit adder for signal <$add0022> created at line 40.
+    Found 4-bit adder for signal <$add0023> created at line 44.
+    Found 4-bit adder for signal <$add0024> created at line 48.
+    Found 4-bit adder for signal <$add0025> created at line 52.
+    Found 4-bit adder for signal <$add0026> created at line 40.
+    Found 4-bit adder for signal <$add0027> created at line 44.
+    Found 4-bit adder for signal <$add0028> created at line 48.
+    Found 4-bit adder for signal <$add0029> created at line 52.
+    Found 4-bit adder for signal <$add0030> created at line 40.
+    Found 4-bit adder for signal <$add0031> created at line 44.
+    Found 4-bit adder for signal <$add0032> created at line 48.
+    Found 4-bit adder for signal <$add0033> created at line 52.
+    Found 4-bit adder for signal <$add0034> created at line 56.
+    Found 4-bit adder for signal <$add0035> created at line 40.
+    Found 4-bit adder for signal <$add0036> created at line 44.
+    Found 4-bit adder for signal <$add0037> created at line 48.
+    Found 4-bit adder for signal <$add0038> created at line 52.
+    Found 4-bit adder for signal <$add0039> created at line 56.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0000> created at line 38.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0001> created at line 38.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0002> created at line 38.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0003> created at line 42.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0004> created at line 38.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0005> created at line 42.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0006> created at line 38.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0007> created at line 42.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0008> created at line 38.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0009> created at line 46.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0010> created at line 42.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0011> created at line 38.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0012> created at line 46.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0013> created at line 42.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0014> created at line 38.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0015> created at line 46.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0016> created at line 42.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0017> created at line 38.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0018> created at line 50.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0019> created at line 46.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0020> created at line 42.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0021> created at line 38.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0022> created at line 50.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0023> created at line 46.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0024> created at line 42.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0025> created at line 38.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0026> created at line 50.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0027> created at line 46.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0028> created at line 42.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0029> created at line 38.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0030> created at line 54.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0031> created at line 50.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0032> created at line 46.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0033> created at line 42.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0034> created at line 38.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0035> created at line 54.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0036> created at line 50.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0037> created at line 46.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0038> created at line 42.
+    Found 4-bit comparator greater for signal <BW$cmp_gt0039> created at line 38.
+    Summary:
+	inferred  20 D-type flip-flop(s).
+	inferred  40 Adder/Subtractor(s).
+	inferred  40 Comparator(s).
+Unit <BIN_BCD_4> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 40
+ 4-bit adder                                           : 40
+# Registers                                            : 5
+ 4-bit register                                        : 5
+# Comparators                                          : 40
+ 4-bit comparator greater                              : 40
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 40
+ 3-bit adder                                           : 2
+ 4-bit adder                                           : 38
+# Registers                                            : 20
+ Flip-Flops                                            : 20
+# Comparators                                          : 40
+ 4-bit comparator greater                              : 40
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <BIN_BCD_4> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block BIN_BCD_4, actual ratio is 13.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 20
+ Flip-Flops                                            : 20
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : BIN_BCD_4.ngr
+Top Level Output File Name         : BIN_BCD_4
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 38
+
+Cell Usage :
+# BELS                             : 218
+#      LUT2                        : 23
+#      LUT3                        : 45
+#      LUT4                        : 144
+#      MUXF5                       : 6
+# FlipFlops/Latches                : 20
+#      FD                          : 20
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 37
+#      IBUF                        : 17
+#      OBUF                        : 20
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                      121  out of    960    12%  
+ Number of 4 input LUTs:                212  out of   1920    11%  
+ Number of IOs:                          38
+ Number of bonded IOBs:                  38  out of     83    45%  
+    IOB Flip Flops:                      20
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 20    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 43.923ns
+   Maximum output required time after clock: 4.283ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 918889758 / 20
+-------------------------------------------------------------------------
+Offset:              43.923ns (Levels of Logic = 33)
+  Source:            A<15> (PAD)
+  Destination:       BQ_2 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: A<15> to BQ_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.218   0.932  A_15_IBUF (A_15_IBUF)
+     LUT4:I0->O            6   0.704   0.748  BW_mux00041 (BW_mux0004)
+     LUT4:I1->O            5   0.704   0.668  BW_mux000811 (N411)
+     LUT4:I2->O            4   0.704   0.762  BW_mux001811 (N11)
+     LUT3:I0->O            2   0.704   0.482  BW_mux001611 (N42)
+     LUT4:I2->O            5   0.704   0.712  Madd__add0005_cy<1>11 (Madd__add0005_cy<1>)
+     LUT3:I1->O            5   0.704   0.668  BW_mux00241 (Madd__add0008_cy<0>)
+     LUT3:I2->O            8   0.704   0.836  Madd__add0008_cy<1>11 (Madd__add0008_cy<1>)
+     LUT3:I1->O            2   0.704   0.451  BW_cmp_gt00071 (BW_cmp_gt0007)
+     LUT4:I3->O            3   0.704   0.535  Madd__add0010_cy<1>11 (Madd__add0010_cy<1>)
+     LUT4:I3->O            2   0.704   0.451  BW_mux004011 (N46)
+     LUT4:I3->O            4   0.704   0.762  BW_cmp_gt00101 (BW_cmp_gt0010)
+     LUT2:I0->O            2   0.704   0.622  BW_mux004221 (N131)
+     LUT4:I0->O            5   0.704   0.808  BW_mux005211 (N48)
+     LUT2:I0->O            3   0.704   0.535  BW_cmp_gt00131 (BW_cmp_gt0013)
+     LUT4:I3->O            2   0.704   0.451  Madd__add0016_cy<1>11 (Madd__add0016_cy<1>)
+     LUT4:I3->O            8   0.704   0.932  BW_mux006411 (N511)
+     LUT4:I0->O            2   0.704   0.451  Madd__add0020_cy<1>11 (Madd__add0020_cy<1>)
+     LUT4:I3->O            2   0.704   0.451  BW_mux007611 (N53)
+     LUT4:I3->O            4   0.704   0.622  BW_cmp_gt00191 (BW_cmp_gt0019)
+     LUT3:I2->O            2   0.704   0.622  BW_mux007821 (N201)
+     LUT4:I0->O            7   0.704   0.883  BW_mux009211 (N56)
+     LUT2:I0->O            3   0.704   0.535  BW_cmp_gt00231 (BW_cmp_gt0023)
+     LUT4:I3->O            2   0.704   0.451  Madd__add0028_cy<1>11 (Madd__add0028_cy<1>)
+     LUT4:I3->O            6   0.704   0.844  BW_mux010811 (N60)
+     LUT2:I0->O            2   0.704   0.451  BW_cmp_gt00271 (BW_cmp_gt0027)
+     LUT4:I3->O            2   0.704   0.451  Madd__add0032_cy<1>11 (Madd__add0032_cy<1>)
+     LUT4:I3->O            6   0.704   0.748  BW_mux012711 (N64)
+     LUT2:I1->O            1   0.704   0.595  BW_mux01272 (Madd__add0038_cy<0>)
+     LUT4:I0->O            2   0.704   0.451  Madd__add0038_cy<1>1 (Madd__add0038_cy<1>)
+     LUT4:I3->O            3   0.704   0.535  BW_mux014211 (N67)
+     LUT4:I3->O            1   0.704   0.424  BW_mux014421 (N371)
+     LUT4:I3->O            1   0.704   0.000  BW_mux01441 (BW_mux0144)
+     FD:D                      0.308          BQ_2
+    ----------------------------------------
+    Total                     43.923ns (24.054ns logic, 19.869ns route)
+                                       (54.8% logic, 45.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 20 / 20
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            BB_3 (FF)
+  Destination:       BB<3> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: BB_3 to BB<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.591   0.420  BB_3 (BB_3)
+     OBUF:I->O                 3.272          BB_3_OBUF (BB<3>)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.48 secs
+ 
+--> 
+
+Total memory usage is 263376 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

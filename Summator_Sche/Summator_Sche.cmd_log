@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "D:/ISE/Summator_Sche/Summator_Sche.xst" -ofn "D:/ISE/Summator_Sche/Summator_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 Summator_Sche.ngc Summator_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Summator_Sche_map.ncd Summator_Sche.ngd Summator_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 Summator_Sche_map.ncd Summator_Sche.ncd Summator_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Summator_Sche.twx Summator_Sche.ncd -o Summator_Sche.twr Summator_Sche.pcf 
+bitgen -intstyle ise -f Summator_Sche.ut Summator_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/Summator_Sche/Summator_Sche.xst" -ofn "D:/ISE/Summator_Sche/Summator_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 Summator_Sche.ngc Summator_Sche.ngd  
+xst -intstyle ise -ifn "D:/ISE/Summator_Sche/Summator_Sche.xst" -ofn "D:/ISE/Summator_Sche/Summator_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Summator_Sche.ucf -p xc3s100e-cp132-4 Summator_Sche.ngc Summator_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Summator_Sche_map.ncd Summator_Sche.ngd Summator_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 Summator_Sche_map.ncd Summator_Sche.ncd Summator_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Summator_Sche.twx Summator_Sche.ncd -o Summator_Sche.twr Summator_Sche.pcf -ucf Summator_Sche.ucf 
+bitgen -intstyle ise -f Summator_Sche.ut Summator_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/Summator_Sche/Summator_Sche.xst" -ofn "D:/ISE/Summator_Sche/Summator_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Summator_Sche.ucf -p xc3s100e-cp132-4 Summator_Sche.ngc Summator_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Summator_Sche_map.ncd Summator_Sche.ngd Summator_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 Summator_Sche_map.ncd Summator_Sche.ncd Summator_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Summator_Sche.twx Summator_Sche.ncd -o Summator_Sche.twr Summator_Sche.pcf -ucf Summator_Sche.ucf 
+bitgen -intstyle ise -f Summator_Sche.ut Summator_Sche.ncd 

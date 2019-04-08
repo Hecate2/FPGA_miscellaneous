@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "D:/ISE/a/a1.xst" -ofn "D:/ISE/a/a1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 a1.ngc a1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o a1_map.ncd a1.ngd a1.pcf 
+xst -intstyle ise -ifn "D:/ISE/a/a1.xst" -ofn "D:/ISE/a/a1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 a1.ngc a1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o a1_map.ncd a1.ngd a1.pcf 
+par -w -intstyle ise -ol high -t 1 a1_map.ncd a1.ncd a1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml a1.twx a1.ncd -o a1.twr a1.pcf 
+bitgen -intstyle ise -f a1.ut a1.ncd 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml a1_preroute.twx a1_map.ncd -o a1_preroute.twr a1.pcf 
+netgen -intstyle ise -s 4  -pcf a1.pcf -sdf_anno true -sdf_path "netgen/map" -insert_glbl true -w -dir netgen/map -ofmt verilog -sim a1_map.ncd a1_map.v 

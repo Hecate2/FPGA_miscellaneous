@@ -1,0 +1,2 @@
+verilog work "traffic_light.v"
+verilog work "test_traffic_light.v"

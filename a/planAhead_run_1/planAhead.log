@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Sep 22 17:04:28 2017
+# Process ID: 1312
+# Log file: D:/ISE/a/planAhead_run_1/planAhead.log
+# Journal file: D:/ISE/a/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -265 day(s)
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/ISE/a/pa.fromNetlist.tcl
+# create_project -name a -dir "D:/ISE/a/planAhead_run_1" -part xc3s100ecp132-4
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'current_run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See D:/ISE/a\planAhead_pid1312.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri Sep 22 17:05:09 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

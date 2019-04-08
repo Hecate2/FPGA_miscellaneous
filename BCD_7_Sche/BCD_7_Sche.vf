@@ -1,0 +1,163 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : BCD_7_Sche.vf
+// /___/   /\     Timestamp : 10/14/2017 17:19:50
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog D:/ISE/BCD_7_Sche/BCD_7_Sche.vf -w D:/ISE/BCD_7_Sche/BCD_7_Sche.sch
+//Design Name: BCD_7_Sche
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module INV4_MXILINX_BCD_7_Sche(I0, 
+                               I1, 
+                               I2, 
+                               I3, 
+                               O0, 
+                               O1, 
+                               O2, 
+                               O3);
+
+    input I0;
+    input I1;
+    input I2;
+    input I3;
+   output O0;
+   output O1;
+   output O2;
+   output O3;
+   
+   
+   INV  I_36_37 (.I(I3), 
+                .O(O3));
+   INV  I_36_38 (.I(I2), 
+                .O(O2));
+   INV  I_36_39 (.I(I1), 
+                .O(O1));
+   INV  I_36_40 (.I(I0), 
+                .O(O0));
+endmodule
+`timescale 1ns / 1ps
+
+module BCD_7_Sche(A0, 
+                  A1, 
+                  A2, 
+                  A3, 
+                  a, 
+                  b, 
+                  c, 
+                  d, 
+                  e, 
+                  f, 
+                  g);
+
+    input A0;
+    input A1;
+    input A2;
+    input A3;
+   output a;
+   output b;
+   output c;
+   output d;
+   output e;
+   output f;
+   output g;
+   
+   wire XLXN_14;
+   wire XLXN_36;
+   wire XLXN_44;
+   wire XLXN_45;
+   wire XLXN_92;
+   wire XLXN_96;
+   wire XLXN_97;
+   wire XLXN_134;
+   wire XLXN_135;
+   wire XLXN_147;
+   wire XLXN_148;
+   wire XLXN_169;
+   wire XLXN_174;
+   
+   (* HU_SET = "XLXI_1_0" *) 
+   INV4_MXILINX_BCD_7_Sche  XLXI_1 (.I0(A3), 
+                                   .I1(A2), 
+                                   .I2(A1), 
+                                   .I3(A0), 
+                                   .O0(XLXN_169), 
+                                   .O1(XLXN_36), 
+                                   .O2(XLXN_92), 
+                                   .O3(XLXN_14));
+   AND3  XLXI_21 (.I0(XLXN_169), 
+                 .I1(XLXN_92), 
+                 .I2(XLXN_44), 
+                 .O(a));
+   AND3  XLXI_22 (.I0(A2), 
+                 .I1(XLXN_169), 
+                 .I2(XLXN_45), 
+                 .O(b));
+   XOR2  XLXI_23 (.I0(A2), 
+                 .I1(A0), 
+                 .O(XLXN_44));
+   XOR2  XLXI_24 (.I0(A0), 
+                 .I1(A1), 
+                 .O(XLXN_45));
+   AND4  XLXI_39 (.I0(XLXN_14), 
+                 .I1(XLXN_36), 
+                 .I2(XLXN_169), 
+                 .I3(A1), 
+                 .O(c));
+   AND4  XLXI_40 (.I0(A0), 
+                 .I1(A1), 
+                 .I2(A2), 
+                 .I3(XLXN_169), 
+                 .O(XLXN_96));
+   AND4  XLXI_41 (.I0(XLXN_14), 
+                 .I1(XLXN_92), 
+                 .I2(A2), 
+                 .I3(XLXN_169), 
+                 .O(XLXN_97));
+   AND4  XLXI_42 (.I0(A0), 
+                 .I1(XLXN_92), 
+                 .I2(XLXN_36), 
+                 .I3(XLXN_169), 
+                 .O(XLXN_147));
+   OR3  XLXI_64 (.I0(XLXN_147), 
+                .I1(XLXN_97), 
+                .I2(XLXN_96), 
+                .O(d));
+   OR3  XLXI_69 (.I0(A0), 
+                .I1(A1), 
+                .I2(A2), 
+                .O(XLXN_134));
+   OR2  XLXI_70 (.I0(A0), 
+                .I1(XLXN_92), 
+                .O(XLXN_135));
+   AND2  XLXI_71 (.I0(XLXN_135), 
+                 .I1(XLXN_134), 
+                 .O(e));
+   OR3  XLXI_75 (.I0(XLXN_148), 
+                .I1(XLXN_96), 
+                .I2(XLXN_147), 
+                .O(f));
+   AND3  XLXI_76 (.I0(A1), 
+                 .I1(XLXN_36), 
+                 .I2(XLXN_169), 
+                 .O(XLXN_148));
+   OR2  XLXI_77 (.I0(XLXN_174), 
+                .I1(XLXN_96), 
+                .O(g));
+   AND3  XLXI_78 (.I0(XLXN_92), 
+                 .I1(XLXN_36), 
+                 .I2(XLXN_169), 
+                 .O(XLXN_174));
+endmodule

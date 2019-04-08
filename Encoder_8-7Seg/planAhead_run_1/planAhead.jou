@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Oct 11 08:22:46 2017
+# Process ID: 1964
+# Log file: D:/ISE/Encoder_8-7Seg/planAhead_run_1/planAhead.log
+# Journal file: D:/ISE/Encoder_8-7Seg/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/ISE/Encoder_8-7Seg/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list A]]
+set_property iostandard LVCMOS33 [get_ports [list B]]
+set_property iostandard LVCMOS33 [get_ports [list C]]
+set_property iostandard LVCMOS33 [get_ports [list D]]
+set_property iostandard LVCMOS33 [get_ports [list E]]
+set_property iostandard LVCMOS33 [get_ports [list F]]
+set_property iostandard LVCMOS33 [get_ports [list G]]
+set_property iostandard LVCMOS33 [get_ports [list H]]
+save_constraints

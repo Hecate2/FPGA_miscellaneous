@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym JK_FlipFlop D:/ISE/vending_asychronous_Sche/JK_FlipFlop.sch D:/ISE/vending_asychronous_Sche/JK_FlipFlop.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl JK_FlipFlop_drc.vhf -w D:/ISE/vending_asychronous_Sche/JK_FlipFlop.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym JK_FlipFlop D:/ISE/vending_asychronous_Sche/JK_FlipFlop.sch D:/ISE/vending_asychronous_Sche/JK_FlipFlop.sym 

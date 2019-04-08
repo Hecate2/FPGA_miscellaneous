@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "D:/ISE/BCD_7_Sche/BCD_7_Sche.xst" -ofn "D:/ISE/BCD_7_Sche/BCD_7_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 BCD_7_Sche.ngc BCD_7_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_Sche_map.ncd BCD_7_Sche.ngd BCD_7_Sche.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 BCD_7_Sche.ngc BCD_7_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_Sche_map.ncd BCD_7_Sche.ngd BCD_7_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_Sche_map.ncd BCD_7_Sche.ncd BCD_7_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_Sche.twx BCD_7_Sche.ncd -o BCD_7_Sche.twr BCD_7_Sche.pcf 
+bitgen -intstyle ise -f BCD_7_Sche.ut BCD_7_Sche.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_7_Sche.ucf -p xc3s100e-cp132-4 BCD_7_Sche.ngc BCD_7_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_Sche_map.ncd BCD_7_Sche.ngd BCD_7_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_Sche_map.ncd BCD_7_Sche.ncd BCD_7_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_Sche.twx BCD_7_Sche.ncd -o BCD_7_Sche.twr BCD_7_Sche.pcf -ucf BCD_7_Sche.ucf 
+bitgen -intstyle ise -f BCD_7_Sche.ut BCD_7_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/BCD_7_Sche/BCD_7_Sche.xst" -ofn "D:/ISE/BCD_7_Sche/BCD_7_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_7_Sche.ucf -p xc3s100e-cp132-4 BCD_7_Sche.ngc BCD_7_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_Sche_map.ncd BCD_7_Sche.ngd BCD_7_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_Sche_map.ncd BCD_7_Sche.ncd BCD_7_Sche.pcf 
+bitgen -intstyle ise -f BCD_7_Sche.ut BCD_7_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/BCD_7_Sche/BCD_7_Sche.xst" -ofn "D:/ISE/BCD_7_Sche/BCD_7_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 BCD_7_Sche.ngc BCD_7_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_Sche_map.ncd BCD_7_Sche.ngd BCD_7_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_Sche_map.ncd BCD_7_Sche.ncd BCD_7_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_Sche.twx BCD_7_Sche.ncd -o BCD_7_Sche.twr BCD_7_Sche.pcf 
+bitgen -intstyle ise -f BCD_7_Sche.ut BCD_7_Sche.ncd 

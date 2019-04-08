@@ -1,0 +1,594 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: vending_asychronous_Sche.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "vending_asychronous_Sche.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "vending_asychronous_Sche"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : vending_asychronous_Sche
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "freq_div50M.v" in library work
+Compiling verilog file "display.v" in library work
+Module <freq_div50M> compiled
+Module <display> compiled
+No errors in compilation
+Analysis of file <"vending_asychronous_Sche.prj"> succeeded.
+ 
+Compiling vhdl file "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf" in Library work.
+Architecture behavioral of Entity d_flipflop_muser_vending_asychronous_sche is up to date.
+Architecture behavioral of Entity add4_mxilinx_vending_asychronous_sche is up to date.
+Architecture behavioral of Entity vending_asychronous_sche is up to date.
+Compiling vhdl file "D:/ISE/vending_asychronous_Sche/D_FlipFlop.vhf" in Library work.
+Architecture behavioral of Entity d_flipflop is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <vending_asychronous_Sche> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <D_FlipFlop_MUSER_vending_asychronous_Sche> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ADD4_MXILINX_vending_asychronous_Sche> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for module <display> in library <work>.
+
+Analyzing hierarchy for module <freq_div50M> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <vending_asychronous_Sche> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf" line 422: Unconnected output port 'nQ' of component 'D_FlipFlop_MUSER_vending_asychronous_Sche'.
+WARNING:Xst:753 - "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf" line 448: Unconnected output port 'Q' of component 'D_FlipFlop_MUSER_vending_asychronous_Sche'.
+WARNING:Xst:753 - "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf" line 456: Unconnected output port 'nQ' of component 'D_FlipFlop_MUSER_vending_asychronous_Sche'.
+WARNING:Xst:753 - "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf" line 470: Unconnected output port 'CO' of component 'ADD4_MXILINX_vending_asychronous_Sche'.
+WARNING:Xst:753 - "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf" line 470: Unconnected output port 'OFL' of component 'ADD4_MXILINX_vending_asychronous_Sche'.
+WARNING:Xst:753 - "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf" line 470: Unconnected output port 'S3' of component 'ADD4_MXILINX_vending_asychronous_Sche'.
+    Set user-defined property "HU_SET =  XLXI_14_0" for instance <XLXI_14> in unit <vending_asychronous_Sche>.
+WARNING:Xst:753 - "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf" line 487: Unconnected output port 'nQ' of component 'D_FlipFlop_MUSER_vending_asychronous_Sche'.
+WARNING:Xst:753 - "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf" line 495: Unconnected output port 'nQ' of component 'D_FlipFlop_MUSER_vending_asychronous_Sche'.
+Entity <vending_asychronous_Sche> analyzed. Unit <vending_asychronous_Sche> generated.
+
+Analyzing Entity <D_FlipFlop_MUSER_vending_asychronous_Sche> in library <work> (Architecture <behavioral>).
+Entity <D_FlipFlop_MUSER_vending_asychronous_Sche> analyzed. Unit <D_FlipFlop_MUSER_vending_asychronous_Sche> generated.
+
+Analyzing Entity <ADD4_MXILINX_vending_asychronous_Sche> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_55> in unit <ADD4_MXILINX_vending_asychronous_Sche>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_58> in unit <ADD4_MXILINX_vending_asychronous_Sche>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_62> in unit <ADD4_MXILINX_vending_asychronous_Sche>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_111> in unit <ADD4_MXILINX_vending_asychronous_Sche>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_175> in unit <ADD4_MXILINX_vending_asychronous_Sche>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_178> in unit <ADD4_MXILINX_vending_asychronous_Sche>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_182> in unit <ADD4_MXILINX_vending_asychronous_Sche>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_206> in unit <ADD4_MXILINX_vending_asychronous_Sche>.
+Entity <ADD4_MXILINX_vending_asychronous_Sche> analyzed. Unit <ADD4_MXILINX_vending_asychronous_Sche> generated.
+
+Analyzing module <display> in library <work>.
+WARNING:Xst:905 - "display.v" line 45: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <data0>, <data1>, <data2>
+Module <display> is correct for synthesis.
+ 
+Analyzing module <freq_div50M> in library <work>.
+Module <freq_div50M> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <display>.
+    Related source file is "display.v".
+    Found 16x8-bit ROM for signal <duan>.
+    Found 1-bit register for signal <clk_400Hz>.
+    Found 32-bit up counter for signal <clk_cnt>.
+    Found 4-bit register for signal <wei_ctrl>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   5 D-type flip-flop(s).
+Unit <display> synthesized.
+
+
+Synthesizing Unit <freq_div50M>.
+    Related source file is "freq_div50M.v".
+    Found 1-bit register for signal <clk_1Hz>.
+    Found 32-bit up counter for signal <clk_count>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <freq_div50M> synthesized.
+
+
+Synthesizing Unit <D_FlipFlop_MUSER_vending_asychronous_Sche>.
+    Related source file is "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf".
+Unit <D_FlipFlop_MUSER_vending_asychronous_Sche> synthesized.
+
+
+Synthesizing Unit <ADD4_MXILINX_vending_asychronous_Sche>.
+    Related source file is "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf".
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <ADD4_MXILINX_vending_asychronous_Sche> synthesized.
+
+
+Synthesizing Unit <vending_asychronous_Sche>.
+    Related source file is "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.vhf".
+WARNING:Xst:646 - Signal <XLXN_155> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <vending_asychronous_Sche> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 3
+ 1-bit register                                        : 2
+ 4-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit vending_asychronous_Sche : the following signal(s) form a combinatorial loop: drink, XLXI_17/XLXN_8, XLXN_1272, XLXI_17/XLXN_11.
+WARNING:Xst:2170 - Unit vending_asychronous_Sche : the following signal(s) form a combinatorial loop: XLXI_17/XLXN_80, change, XLXI_17/XLXN_7.
+WARNING:Xst:2170 - Unit vending_asychronous_Sche : the following signal(s) form a combinatorial loop: XLXI_1/nQ_DUMMY, XLXN_152, XLXI_1/XLXN_11, XLXN_206, XLXI_1/XLXN_8.
+WARNING:Xst:2170 - Unit vending_asychronous_Sche : the following signal(s) form a combinatorial loop: XLXN_159, XLXN_330, XLXI_6/XLXN_8, XLXI_6/nQ_DUMMY, XLXI_6/XLXN_11.
+WARNING:Xst:2170 - Unit vending_asychronous_Sche : the following signal(s) form a combinatorial loop: XLXI_15/XLXN_11, XLXN_300, XLXI_15/nQ_DUMMY, XLXI_15/XLXN_8.
+WARNING:Xst:2170 - Unit vending_asychronous_Sche : the following signal(s) form a combinatorial loop: XLXI_16/XLXN_8, XLXI_16/XLXN_11, XLXI_16/nQ_DUMMY, XLXN_277.
+
+Optimizing unit <vending_asychronous_Sche> ...
+
+Optimizing unit <display> ...
+
+Optimizing unit <ADD4_MXILINX_vending_asychronous_Sche> ...
+
+Mapping all equations...
+WARNING:Xst:2170 - Unit XLXI_14 : the following signal(s) form a combinatorial loop: C2, vending_asychronous_Sche/XLXN_1274, A0, vending_asychronous_Sche/XLXI_2/XLXN_8, vending_asychronous_Sche/XLXN_206, CO_DUMMY, C0, C1, vending_asychronous_Sche/XLXI_2/XLXN_11.
+WARNING:Xst:2170 - Unit XLXI_14 : the following signal(s) form a combinatorial loop: vending_asychronous_Sche/XLXN_300, I0, vending_asychronous_Sche/XLXI_15/XLXN_7, vending_asychronous_Sche/XLXI_15/XLXN_80, B0, S0.
+WARNING:Xst:2170 - Unit XLXI_14 : the following signal(s) form a combinatorial loop: I1, vending_asychronous_Sche/XLXN_1277, A1, vending_asychronous_Sche/XLXI_5/XLXN_8, vending_asychronous_Sche/XLXI_5/XLXN_11, vending_asychronous_Sche/XLXN_330, S1.
+WARNING:Xst:2170 - Unit XLXI_14 : the following signal(s) form a combinatorial loop: vending_asychronous_Sche/XLXN_277, B1, vending_asychronous_Sche/XLXI_16/XLXN_80, vending_asychronous_Sche/XLXI_16/XLXN_7.
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block vending_asychronous_Sche, actual ratio is 5.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 70
+ Flip-Flops                                            : 70
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : vending_asychronous_Sche.ngr
+Top Level Output File Name         : vending_asychronous_Sche
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 19
+
+Cell Usage :
+# BELS                             : 255
+#      AND2B1                      : 3
+#      GND                         : 2
+#      INV                         : 5
+#      LUT1                        : 62
+#      LUT3                        : 4
+#      LUT4                        : 21
+#      MUXCY                       : 79
+#      MUXCY_D                     : 1
+#      MUXCY_L                     : 2
+#      MUXF5                       : 2
+#      VCC                         : 1
+#      XOR2                        : 5
+#      XORCY                       : 68
+# FlipFlops/Latches                : 70
+#      FD                          : 4
+#      FDE                         : 2
+#      FDR                         : 64
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 18
+#      IBUF                        : 3
+#      OBUF                        : 15
+# Logical                          : 46
+#      NAND2                       : 2
+#      NAND3                       : 42
+#      NOR2                        : 2
+# Others                           : 4
+#      FMAP                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                       49  out of    960     5%  
+ Number of Slice Flip Flops:             70  out of   1920     3%  
+ Number of 4 input LUTs:                 92  out of   1920     4%  
+ Number of IOs:                          19
+ Number of bonded IOBs:                  19  out of     83    22%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)   | Load  |
+-----------------------------------+-------------------------+-------+
+clk_50MHz                          | BUFGP                   | 66    |
+XLXI_21/clk_400Hz                  | NONE(XLXI_21/wei_ctrl_3)| 4     |
+-----------------------------------+-------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.240ns (Maximum Frequency: 190.857MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 38.488ns
+   Maximum combinational path delay: 40.776ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_50MHz'
+  Clock period: 5.240ns (frequency: 190.857MHz)
+  Total number of paths / destination ports: 3170 / 132
+-------------------------------------------------------------------------
+Delay:               5.240ns (Levels of Logic = 9)
+  Source:            XLXI_63/clk_count_8 (FF)
+  Destination:       XLXI_63/clk_count_0 (FF)
+  Source Clock:      clk_50MHz rising
+  Destination Clock: clk_50MHz rising
+
+  Data Path: XLXI_63/clk_count_8 to XLXI_63/clk_count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.622  XLXI_63/clk_count_8 (XLXI_63/clk_count_8)
+     LUT4:I0->O            1   0.704   0.000  XLXI_63/clk_count_cmp_eq0000_wg_lut<0> (XLXI_63/clk_count_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  XLXI_63/clk_count_cmp_eq0000_wg_cy<0> (XLXI_63/clk_count_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_63/clk_count_cmp_eq0000_wg_cy<1> (XLXI_63/clk_count_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_63/clk_count_cmp_eq0000_wg_cy<2> (XLXI_63/clk_count_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_63/clk_count_cmp_eq0000_wg_cy<3> (XLXI_63/clk_count_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_63/clk_count_cmp_eq0000_wg_cy<4> (XLXI_63/clk_count_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_63/clk_count_cmp_eq0000_wg_cy<5> (XLXI_63/clk_count_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_63/clk_count_cmp_eq0000_wg_cy<6> (XLXI_63/clk_count_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O          33   0.331   1.263  XLXI_63/clk_count_cmp_eq0000_wg_cy<7> (XLXI_63/clk_count_cmp_eq0000)
+     FDR:R                     0.911          XLXI_63/clk_count_0
+    ----------------------------------------
+    Total                      5.240ns (3.355ns logic, 1.885ns route)
+                                       (64.0% logic, 36.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_21/clk_400Hz'
+  Clock period: 1.719ns (frequency: 581.734MHz)
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Delay:               1.719ns (Levels of Logic = 0)
+  Source:            XLXI_21/wei_ctrl_2 (FF)
+  Destination:       XLXI_21/wei_ctrl_3 (FF)
+  Source Clock:      XLXI_21/clk_400Hz rising
+  Destination Clock: XLXI_21/clk_400Hz rising
+
+  Data Path: XLXI_21/wei_ctrl_2 to XLXI_21/wei_ctrl_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               9   0.591   0.820  XLXI_21/wei_ctrl_2 (XLXI_21/wei_ctrl_2)
+     FD:D                      0.308          XLXI_21/wei_ctrl_3
+    ----------------------------------------
+    Total                      1.719ns (0.899ns logic, 0.820ns route)
+                                       (52.3% logic, 47.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_50MHz'
+  Total number of paths / destination ports: 1866 / 7
+-------------------------------------------------------------------------
+Offset:              38.488ns (Levels of Logic = 34)
+  Source:            XLXI_63/clk_1Hz (FF)
+  Destination:       sm_duan<5> (PAD)
+  Source Clock:      clk_50MHz rising
+
+  Data Path: XLXI_63/clk_1Hz to sm_duan<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             16   0.591   1.034  XLXI_63/clk_1Hz (XLXI_63/clk_1Hz)
+     NAND3:I0->O           3   0.704   0.531  XLXI_1/XLXI_3 (XLXI_1/XLXN_80)
+     NAND3:I2->O           2   0.704   0.447  XLXI_1/XLXI_4 (XLXI_1/XLXN_11)
+     NAND3:I1->O           1   0.704   0.420  XLXI_1/XLXI_6 (XLXI_1/nQ_DUMMY)
+     NAND3:I0->O           3   0.704   0.531  XLXI_1/XLXI_5 (XLXN_152)
+     NAND3:I2->O           2   0.704   0.447  XLXI_2/XLXI_2 (XLXI_2/XLXN_8)
+     NAND3:I0->O           1   0.704   0.420  XLXI_2/XLXI_1 (XLXI_2/XLXN_7)
+     NAND3:I2->O           3   0.704   0.531  XLXI_2/XLXI_3 (XLXI_2/XLXN_80)
+     NAND3:I2->O           2   0.704   0.447  XLXI_2/XLXI_4 (XLXI_2/XLXN_11)
+     NAND3:I1->O           2   0.704   0.447  XLXI_2/XLXI_6 (XLXN_1274)
+     NOR2:I1->O            1   0.704   0.420  XLXI_3 (XLXN_206)
+     begin scope: 'XLXI_14'
+     XOR2:I0->O            1   0.704   0.000  I_36_239 (I0)
+     MUXCY_L:S->LO         1   0.464   0.000  I_36_111 (C0)
+     XORCY:CI->O           1   0.804   0.420  I_36_74 (S1)
+     end scope: 'XLXI_14'
+     AND2B1:I1->O          1   0.704   0.420  XLXI_32 (XLXN_320)
+     NAND3:I2->O           2   0.704   0.447  XLXI_16/XLXI_2 (XLXI_16/XLXN_8)
+     NAND3:I0->O           1   0.704   0.420  XLXI_16/XLXI_1 (XLXI_16/XLXN_7)
+     NAND3:I2->O           3   0.704   0.531  XLXI_16/XLXI_3 (XLXI_16/XLXN_80)
+     NAND3:I2->O           2   0.704   0.447  XLXI_16/XLXI_4 (XLXI_16/XLXN_11)
+     NAND3:I1->O           1   0.704   0.420  XLXI_16/XLXI_6 (XLXI_16/nQ_DUMMY)
+     NAND3:I0->O           4   0.704   0.587  XLXI_16/XLXI_5 (XLXN_277)
+     begin scope: 'XLXI_14'
+     XOR2:I1->O            1   0.704   0.000  I_36_240 (I1)
+     MUXCY_L:S->LO         1   0.464   0.000  I_36_55 (C1)
+     XORCY:CI->O           1   0.804   0.420  I_36_76 (S2)
+     end scope: 'XLXI_14'
+     AND2B1:I1->O          1   0.704   0.420  XLXI_33 (XLXN_323)
+     NAND3:I2->O           2   0.704   0.447  XLXI_17/XLXI_2 (XLXI_17/XLXN_8)
+     NAND3:I0->O           1   0.704   0.420  XLXI_17/XLXI_1 (XLXI_17/XLXN_7)
+     NAND3:I2->O           3   0.704   0.531  XLXI_17/XLXI_3 (XLXI_17/XLXN_80)
+     NAND3:I1->O           3   0.704   0.706  XLXI_17/XLXI_5 (change_OBUF)
+     LUT4:I0->O            1   0.704   0.000  XLXI_21/duan_ctrl<0>46_G (N3)
+     MUXF5:I1->O           3   0.321   0.706  XLXI_21/duan_ctrl<0>46 (sm_duan_3_OBUF)
+     LUT3:I0->O            2   0.704   0.447  XLXI_21/duan<5>1 (sm_duan_4_OBUF)
+     OBUF:I->O                 3.272          sm_duan_5_OBUF (sm_duan<5>)
+    ----------------------------------------
+    Total                     38.488ns (25.024ns logic, 13.464ns route)
+                                       (65.0% logic, 35.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_21/clk_400Hz'
+  Total number of paths / destination ports: 104 / 11
+-------------------------------------------------------------------------
+Offset:              9.228ns (Levels of Logic = 6)
+  Source:            XLXI_21/wei_ctrl_3 (FF)
+  Destination:       sm_duan<5> (PAD)
+  Source Clock:      XLXI_21/clk_400Hz rising
+
+  Data Path: XLXI_21/wei_ctrl_3 to sm_duan<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               8   0.591   0.932  XLXI_21/wei_ctrl_3 (XLXI_21/wei_ctrl_3)
+     LUT3:I0->O            1   0.704   0.000  XLXI_21/duan_ctrl<0>91 (XLXI_21/duan_ctrl<0>91)
+     MUXF5:I1->O           2   0.321   0.526  XLXI_21/duan_ctrl<0>9_f5 (XLXI_21/duan_ctrl<0>9)
+     LUT4:I1->O            1   0.704   0.000  XLXI_21/duan_ctrl<0>46_F (N2)
+     MUXF5:I0->O           3   0.321   0.706  XLXI_21/duan_ctrl<0>46 (sm_duan_3_OBUF)
+     LUT3:I0->O            2   0.704   0.447  XLXI_21/duan<5>1 (sm_duan_4_OBUF)
+     OBUF:I->O                 3.272          sm_duan_5_OBUF (sm_duan<5>)
+    ----------------------------------------
+    Total                      9.228ns (6.617ns logic, 2.611ns route)
+                                       (71.7% logic, 28.3% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1750 / 6
+-------------------------------------------------------------------------
+Delay:               40.776ns (Levels of Logic = 37)
+  Source:            in0_5 (PAD)
+  Destination:       sm_duan<5> (PAD)
+
+  Data Path: in0_5 to sm_duan<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  in0_5_IBUF (in0_5_IBUF)
+     NAND3:I2->O           2   0.704   0.447  XLXI_1/XLXI_2 (XLXI_1/XLXN_8)
+     NAND3:I0->O           1   0.704   0.420  XLXI_1/XLXI_1 (XLXI_1/XLXN_7)
+     NAND3:I2->O           3   0.704   0.531  XLXI_1/XLXI_3 (XLXI_1/XLXN_80)
+     NAND3:I2->O           2   0.704   0.447  XLXI_1/XLXI_4 (XLXI_1/XLXN_11)
+     NAND3:I1->O           1   0.704   0.420  XLXI_1/XLXI_6 (XLXI_1/nQ_DUMMY)
+     NAND3:I0->O           3   0.704   0.531  XLXI_1/XLXI_5 (XLXN_152)
+     NAND3:I2->O           2   0.704   0.447  XLXI_2/XLXI_2 (XLXI_2/XLXN_8)
+     NAND3:I0->O           1   0.704   0.420  XLXI_2/XLXI_1 (XLXI_2/XLXN_7)
+     NAND3:I2->O           3   0.704   0.531  XLXI_2/XLXI_3 (XLXI_2/XLXN_80)
+     NAND3:I2->O           2   0.704   0.447  XLXI_2/XLXI_4 (XLXI_2/XLXN_11)
+     NAND3:I1->O           2   0.704   0.447  XLXI_2/XLXI_6 (XLXN_1274)
+     NOR2:I1->O            1   0.704   0.420  XLXI_3 (XLXN_206)
+     begin scope: 'XLXI_14'
+     XOR2:I0->O            1   0.704   0.000  I_36_239 (I0)
+     MUXCY_L:S->LO         1   0.464   0.000  I_36_111 (C0)
+     XORCY:CI->O           1   0.804   0.420  I_36_74 (S1)
+     end scope: 'XLXI_14'
+     AND2B1:I1->O          1   0.704   0.420  XLXI_32 (XLXN_320)
+     NAND3:I2->O           2   0.704   0.447  XLXI_16/XLXI_2 (XLXI_16/XLXN_8)
+     NAND3:I0->O           1   0.704   0.420  XLXI_16/XLXI_1 (XLXI_16/XLXN_7)
+     NAND3:I2->O           3   0.704   0.531  XLXI_16/XLXI_3 (XLXI_16/XLXN_80)
+     NAND3:I2->O           2   0.704   0.447  XLXI_16/XLXI_4 (XLXI_16/XLXN_11)
+     NAND3:I1->O           1   0.704   0.420  XLXI_16/XLXI_6 (XLXI_16/nQ_DUMMY)
+     NAND3:I0->O           4   0.704   0.587  XLXI_16/XLXI_5 (XLXN_277)
+     begin scope: 'XLXI_14'
+     XOR2:I1->O            1   0.704   0.000  I_36_240 (I1)
+     MUXCY_L:S->LO         1   0.464   0.000  I_36_55 (C1)
+     XORCY:CI->O           1   0.804   0.420  I_36_76 (S2)
+     end scope: 'XLXI_14'
+     AND2B1:I1->O          1   0.704   0.420  XLXI_33 (XLXN_323)
+     NAND3:I2->O           2   0.704   0.447  XLXI_17/XLXI_2 (XLXI_17/XLXN_8)
+     NAND3:I0->O           1   0.704   0.420  XLXI_17/XLXI_1 (XLXI_17/XLXN_7)
+     NAND3:I2->O           3   0.704   0.531  XLXI_17/XLXI_3 (XLXI_17/XLXN_80)
+     NAND3:I1->O           3   0.704   0.706  XLXI_17/XLXI_5 (change_OBUF)
+     LUT4:I0->O            1   0.704   0.000  XLXI_21/duan_ctrl<0>46_G (N3)
+     MUXF5:I1->O           3   0.321   0.706  XLXI_21/duan_ctrl<0>46 (sm_duan_3_OBUF)
+     LUT3:I0->O            2   0.704   0.447  XLXI_21/duan<5>1 (sm_duan_4_OBUF)
+     OBUF:I->O                 3.272          sm_duan_5_OBUF (sm_duan<5>)
+    ----------------------------------------
+    Total                     40.776ns (27.059ns logic, 13.717ns route)
+                                       (66.4% logic, 33.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.41 secs
+ 
+--> 
+
+Total memory usage is 280912 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   21 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

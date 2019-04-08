@@ -1,0 +1,6 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym div5 D:/ISE/stopwatch_sportsman_Sche/div5.sch D:/ISE/stopwatch_sportsman_Sche/div5.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl div5_drc.vhf -w D:/ISE/stopwatch_sportsman_Sche/div5.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl div5.vhf -w D:/ISE/stopwatch_sportsman_Sche/div5.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym div5 D:/ISE/stopwatch_sportsman_Sche/div5.sch D:/ISE/stopwatch_sportsman_Sche/div5.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl div5_drc.vhf -w D:/ISE/stopwatch_sportsman_Sche/div5.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym div5 D:/ISE/stopwatch_sportsman_Sche/div5.sch D:/ISE/stopwatch_sportsman_Sche/div5.sym 

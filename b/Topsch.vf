@@ -1,0 +1,33 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Topsch.vf
+// /___/   /\     Timestamp : 10/28/2017 20:12:28
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog D:/ISE/b/Topsch.vf -w D:/ISE/b/Topsch.sch
+//Design Name: Topsch
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Topsch(LD7);
+
+   (* LOC = "G1" *) 
+   output LD7;
+   
+   wire XLXN_3;
+   
+   GND  XLXI_1 (.G(XLXN_3));
+   INV  XLXI_2 (.I(XLXN_3), 
+               .O(LD7));
+endmodule

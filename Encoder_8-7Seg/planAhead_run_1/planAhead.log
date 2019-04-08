@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Oct 11 08:22:46 2017
+# Process ID: 1964
+# Log file: D:/ISE/Encoder_8-7Seg/planAhead_run_1/planAhead.log
+# Journal file: D:/ISE/Encoder_8-7Seg/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -284 day(s)
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/ISE/Encoder_8-7Seg/pa.fromHdl.tcl
+# create_project -name Encoder_8-7Seg -dir "D:/ISE/Encoder_8-7Seg/planAhead_run_1" -part xc3s100ecp132-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Encoder_8.ucf" [current_fileset -constrset]
+Adding file 'D:/ISE/Encoder_8-7Seg/Encoder_8.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {Encoder_8-7Seg.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top Encoder_8_7Seg $srcset
+# add_files [list {Encoder_8.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s100ecp132-4
+Using Verific elaboration
+Parsing VHDL file "D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "D:/ISE/Encoder_8-7Seg/Encoder_8-7Seg.v" into library work
+INFO: [Designutils 20-910] Reading macro library D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [D:/ISE/Encoder_8-7Seg/Encoder_8.ucf]
+Finished Parsing UCF File [D:/ISE/Encoder_8-7Seg/Encoder_8.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 94b021b3
+open_rtl_design: Time (s): elapsed = 00:00:05 . Memory (MB): peak = 554.039 ; gain = 130.805
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list A]]
+set_property iostandard LVCMOS33 [get_ports [list B]]
+set_property iostandard LVCMOS33 [get_ports [list C]]
+set_property iostandard LVCMOS33 [get_ports [list D]]
+set_property iostandard LVCMOS33 [get_ports [list E]]
+set_property iostandard LVCMOS33 [get_ports [list F]]
+set_property iostandard LVCMOS33 [get_ports [list G]]
+set_property iostandard LVCMOS33 [get_ports [list H]]
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See D:/ISE/Encoder_8-7Seg\planAhead_pid1964.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Oct 11 08:23:37 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

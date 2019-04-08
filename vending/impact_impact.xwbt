@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\ISE\vending\impact.xsl
+OUTFILE=D:\ISE\vending\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=D:\ISE\vending
+LICENSE=iMPACT
+USER_INFO=iMPACT

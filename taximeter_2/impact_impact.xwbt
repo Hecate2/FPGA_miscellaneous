@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\ISE\taximeter_2\impact.xsl
+OUTFILE=D:\ISE\taximeter_2\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=D:\ISE\taximeter_2
+LICENSE=iMPACT
+USER_INFO=iMPACT

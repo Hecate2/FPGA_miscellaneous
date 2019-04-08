@@ -1,0 +1,5 @@
+set -tmpdir "D:/ISE/traffic_light/xst/projnav.tmp"
+set -xsthdpdir "D:/ISE/traffic_light/xst"
+elaborate
+-ifn state.prj
+-ifmt mixed

@@ -1,0 +1,8 @@
+[Inputs]
+clk_50MHz
+[Outputs]
+clk_1Hz
+[BiDir]
+[ATTRIBUTES]
+VeriModel freq_div50M
+

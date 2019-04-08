@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/ISE/VGA_driver/VGA.xst" -ofn "D:/ISE/VGA_driver/VGA.syr" 
+xst -intstyle ise -ifn "D:/ISE/VGA_driver/VGA.xst" -ofn "D:/ISE/VGA_driver/VGA.syr" 
+xst -intstyle ise -ifn "D:/ISE/VGA_driver/VGA.xst" -ofn "D:/ISE/VGA_driver/VGA.syr" 
+xst -intstyle ise -ifn "D:/ISE/VGA_driver/VGA.xst" -ofn "D:/ISE/VGA_driver/VGA.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim VGA.ngc VGA_synthesis.v 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/ISE/vending_asychronous_Sche/freq_divider_freq_divider_sch_tb_isim_beh.exe" -prj "D:/ISE/vending_asychronous_Sche/freq_divider_freq_divider_sch_tb_beh.prj" "work.freq_divider_freq_divider_sch_tb" "work.glbl" 

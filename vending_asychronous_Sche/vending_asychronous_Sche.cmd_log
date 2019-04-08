@@ -1,0 +1,248 @@
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_asychronous.ucf -p xc3s100e-cp132-4 vending_asychronous_Sche.ngc vending_asychronous_Sche.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ngd vending_asychronous_Sche.pcf 
+par -w -intstyle ise -ol high -t 1 vending_asychronous_Sche_map.ncd vending_asychronous_Sche.ncd vending_asychronous_Sche.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_asychronous_Sche.twx vending_asychronous_Sche.ncd -o vending_asychronous_Sche.twr vending_asychronous_Sche.pcf -ucf vending_asychronous.ucf 
+bitgen -intstyle ise -f vending_asychronous_Sche.ut vending_asychronous_Sche.ncd 
+xst -intstyle ise -ifn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.xst" -ofn "D:/ISE/vending_asychronous_Sche/vending_asychronous_Sche.syr" 

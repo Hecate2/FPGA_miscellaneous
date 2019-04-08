@@ -1,0 +1,443 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: VGA.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "VGA.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "VGA"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : VGA
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "VGA_Driver.v" in library work
+Module <VGA> compiled
+Module <sprom> compiled
+No errors in compilation
+Analysis of file <"VGA.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <VGA> in library <work> with parameters.
+	Left = "00000000000000000000000010111000"
+	PixelWidth = "00000000000000000000000001100100"
+	Top = "00000000000000000000000000011101"
+
+Analyzing hierarchy for module <sprom> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <VGA>.
+	Left = 32'sb00000000000000000000000010111000
+	PixelWidth = 32'sb00000000000000000000000001100100
+	Top = 32'sb00000000000000000000000000011101
+Module <VGA> is correct for synthesis.
+ 
+Analyzing module <sprom> in library <work>.
+Module <sprom> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <sprom>.
+    Related source file is "VGA_Driver.v".
+WARNING:Xst:647 - Input <coloradd> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit register for signal <color_reg>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <sprom> synthesized.
+
+
+Synthesizing Unit <VGA>.
+    Related source file is "VGA_Driver.v".
+    Found 1-bit register for signal <hsync_r>.
+    Found 11-bit comparator greatequal for signal <hsync_r$cmp_ge0000> created at line 194.
+    Found 11-bit comparator greater for signal <valid$cmp_gt0000> created at line 178.
+    Found 10-bit comparator greater for signal <valid$cmp_gt0001> created at line 178.
+    Found 11-bit comparator less for signal <valid$cmp_lt0000> created at line 178.
+    Found 10-bit comparator less for signal <valid$cmp_lt0001> created at line 178.
+    Found 1-bit register for signal <vsync_r>.
+    Found 10-bit comparator greatequal for signal <vsync_r$cmp_ge0000> created at line 197.
+    Found 11-bit up counter for signal <x_cnt>.
+    Found 6-bit register for signal <Xcoloradd>.
+    Found 11-bit comparator greatequal for signal <Xcoloradd$cmp_ge0000> created at line 128.
+    Found 11-bit comparator greatequal for signal <Xcoloradd$cmp_ge0001> created at line 130.
+    Found 11-bit comparator greatequal for signal <Xcoloradd$cmp_ge0002> created at line 132.
+    Found 11-bit comparator greatequal for signal <Xcoloradd$cmp_ge0003> created at line 134.
+    Found 11-bit comparator greatequal for signal <Xcoloradd$cmp_ge0004> created at line 136.
+    Found 11-bit comparator greatequal for signal <Xcoloradd$cmp_ge0005> created at line 138.
+    Found 11-bit comparator greatequal for signal <Xcoloradd$cmp_ge0006> created at line 140.
+    Found 11-bit comparator greatequal for signal <Xcoloradd$cmp_ge0007> created at line 142.
+    Found 11-bit comparator less for signal <Xcoloradd$cmp_lt0000> created at line 128.
+    Found 11-bit comparator less for signal <Xcoloradd$cmp_lt0001> created at line 130.
+    Found 11-bit comparator less for signal <Xcoloradd$cmp_lt0002> created at line 132.
+    Found 11-bit comparator less for signal <Xcoloradd$cmp_lt0003> created at line 134.
+    Found 11-bit comparator less for signal <Xcoloradd$cmp_lt0004> created at line 136.
+    Found 11-bit comparator less for signal <Xcoloradd$cmp_lt0005> created at line 138.
+    Found 11-bit comparator less for signal <Xcoloradd$cmp_lt0006> created at line 140.
+    Found 10-bit up counter for signal <y_cnt>.
+    Found 3-bit register for signal <Ycoloradd>.
+    Found 10-bit comparator greatequal for signal <Ycoloradd$cmp_ge0000> created at line 153.
+    Found 10-bit comparator greatequal for signal <Ycoloradd$cmp_ge0001> created at line 155.
+    Found 10-bit comparator greatequal for signal <Ycoloradd$cmp_ge0002> created at line 157.
+    Found 10-bit comparator greatequal for signal <Ycoloradd$cmp_ge0003> created at line 159.
+    Found 10-bit comparator greatequal for signal <Ycoloradd$cmp_ge0004> created at line 161.
+    Found 10-bit comparator greatequal for signal <Ycoloradd$cmp_ge0005> created at line 163.
+    Found 10-bit comparator less for signal <Ycoloradd$cmp_lt0000> created at line 153.
+    Found 10-bit comparator less for signal <Ycoloradd$cmp_lt0001> created at line 155.
+    Found 10-bit comparator less for signal <Ycoloradd$cmp_lt0002> created at line 157.
+    Found 10-bit comparator less for signal <Ycoloradd$cmp_lt0003> created at line 159.
+    Found 10-bit comparator less for signal <Ycoloradd$cmp_lt0004> created at line 161.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  11 D-type flip-flop(s).
+	inferred  32 Comparator(s).
+Unit <VGA> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+# Registers                                            : 5
+ 1-bit register                                        : 2
+ 3-bit register                                        : 1
+ 6-bit register                                        : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 32
+ 10-bit comparator greatequal                          : 7
+ 10-bit comparator greater                             : 1
+ 10-bit comparator less                                : 6
+ 11-bit comparator greatequal                          : 9
+ 11-bit comparator greater                             : 1
+ 11-bit comparator less                                : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+# Registers                                            : 19
+ Flip-Flops                                            : 19
+# Comparators                                          : 32
+ 10-bit comparator greatequal                          : 7
+ 10-bit comparator greater                             : 1
+ 10-bit comparator less                                : 6
+ 11-bit comparator greatequal                          : 9
+ 11-bit comparator greater                             : 1
+ 11-bit comparator less                                : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <Xcoloradd_3> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <Xcoloradd_4> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <Xcoloradd_5> 
+
+Optimizing unit <VGA> ...
+
+Optimizing unit <sprom> ...
+WARNING:Xst:2677 - Node <Xcoloradd_0> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <Xcoloradd_1> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <Xcoloradd_2> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <Xcoloradd_4> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <Ycoloradd_0> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <Ycoloradd_1> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <Ycoloradd_2> of sequential type is unconnected in block <VGA>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block VGA, actual ratio is 4.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 31
+ Flip-Flops                                            : 31
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : VGA.ngr
+Top Level Output File Name         : VGA
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 124
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 20
+#      LUT2                        : 24
+#      LUT3                        : 5
+#      LUT4                        : 22
+#      LUT4_D                      : 1
+#      LUT4_L                      : 1
+#      MUXCY                       : 24
+#      VCC                         : 1
+#      XORCY                       : 21
+# FlipFlops/Latches                : 31
+#      FD                          : 8
+#      FDC                         : 13
+#      FDCE                        : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      IBUF                        : 1
+#      OBUF                        : 10
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                       42  out of    960     4%  
+ Number of Slice Flip Flops:             31  out of   1920     1%  
+ Number of 4 input LUTs:                 77  out of   1920     4%  
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of     83    14%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 31    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst_n_inv(rst_n_inv1_INV_0:O)      | NONE(hsync_r)          | 23    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.385ns (Maximum Frequency: 156.617MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 9.547ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.385ns (frequency: 156.617MHz)
+  Total number of paths / destination ports: 577 / 41
+-------------------------------------------------------------------------
+Delay:               6.385ns (Levels of Logic = 3)
+  Source:            x_cnt_1 (FF)
+  Destination:       y_cnt_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: x_cnt_1 to y_cnt_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.591   0.706  x_cnt_1 (x_cnt_1)
+     LUT2:I0->O            1   0.704   0.499  x_cnt_cmp_eq00003 (x_cnt_cmp_eq00003)
+     LUT4:I1->O           12   0.704   1.040  x_cnt_cmp_eq000043 (x_cnt_cmp_eq0000)
+     LUT2:I1->O           10   0.704   0.882  y_cnt_not00011 (y_cnt_not0001)
+     FDCE:CE                   0.555          y_cnt_0
+    ----------------------------------------
+    Total                      6.385ns (3.258ns logic, 3.127ns route)
+                                       (51.0% logic, 49.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 306 / 10
+-------------------------------------------------------------------------
+Offset:              9.547ns (Levels of Logic = 5)
+  Source:            y_cnt_2 (FF)
+  Destination:       vga_b<2> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: y_cnt_2 to vga_b<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             5   0.591   0.808  y_cnt_2 (y_cnt_2)
+     LUT4:I0->O            1   0.704   0.455  vga_b_0_mux0000224 (vga_b_0_mux0000224)
+     LUT4:I2->O            1   0.704   0.424  vga_b_0_mux0000241 (vga_b_0_mux0000241)
+     LUT4:I3->O            8   0.704   0.761  vga_b_0_mux00002149_SW1 (N8)
+     LUT4:I3->O            1   0.704   0.420  vga_r_1_mux00001 (vga_r_1_OBUF)
+     OBUF:I->O                 3.272          vga_r_1_OBUF (vga_r<1>)
+    ----------------------------------------
+    Total                      9.547ns (6.679ns logic, 2.868ns route)
+                                       (70.0% logic, 30.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.60 secs
+ 
+--> 
+
+Total memory usage is 256528 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    9 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

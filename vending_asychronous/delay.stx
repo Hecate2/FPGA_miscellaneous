@@ -1,0 +1,41 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/ISE/vending_asychronous/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to D:/ISE/vending_asychronous/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "vending_asychronous.v" in library work
+Module <delay> compiled
+ERROR:HDLCompilers:26 - "vending_asychronous.v" line 94 unexpected token: 'delay'
+ERROR:HDLCompilers:26 - "vending_asychronous.v" line 94 unexpected token: '.'
+ERROR:HDLCompilers:26 - "vending_asychronous.v" line 94 expecting ';', found ','
+ERROR:HDLCompilers:26 - "vending_asychronous.v" line 94 expecting ';', found ')'
+ERROR:HDLCompilers:26 - "vending_asychronous.v" line 100 unexpected token: 'delay'
+ERROR:HDLCompilers:26 - "vending_asychronous.v" line 100 unexpected token: '.'
+ERROR:HDLCompilers:26 - "vending_asychronous.v" line 100 expecting ';', found ','
+ERROR:HDLCompilers:26 - "vending_asychronous.v" line 100 expecting ';', found ')'
+Module <vending_asychronous> compiled
+Module <display> compiled
+Module <top_level_connection> compiled
+Analysis of file <"delay.prj"> failed.
+--> 
+
+Total memory usage is 209060 kilobytes
+
+Number of errors   :    8 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

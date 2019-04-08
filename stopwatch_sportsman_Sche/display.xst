@@ -1,0 +1,5 @@
+set -tmpdir "D:/ISE/stopwatch_sportsman_Sche/xst/projnav.tmp"
+set -xsthdpdir "D:/ISE/stopwatch_sportsman_Sche/xst"
+elaborate
+-ifn display.prj
+-ifmt mixed

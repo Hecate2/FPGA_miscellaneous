@@ -1,0 +1,28 @@
+Command line:
+   div5_div5_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  4369
+
+Thu Nov 30 12:30:19 2017
+
+
+ Elaboration Time: 0.156001 sec
+
+ Current Memory Usage: 663.532 Meg
+
+ Total Signals          : 77
+ Total Nets             : 52
+ Total Signal Drivers   : 19
+ Total Blocks           : 14
+ Total Primitive Blocks : 12
+ Total Processes        : 22
+ Total Traceable Variables  : 35
+ Total Scalar Nets and Variables : 619
+
+ Total Simulation Time: 826.181 sec
+
+ Current Memory Usage: 663.532 Meg
+
+Thu Nov 30 12:44:41 2017
+

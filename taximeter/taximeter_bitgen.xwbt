@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\ISE\taximeter\taximeter.ncd
+OUTFILE=D:\ISE\taximeter\taximeter.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=D:\ISE\taximeter
+LICENSE=ISE
+USER_INFO=135256_15690819_173552794_661

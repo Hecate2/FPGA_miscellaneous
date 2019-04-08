@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/ISE/Schematic_draft/exp_2_1_16_5.xst" -ofn "D:/ISE/Schematic_draft/exp_2_1_16_5.syr" 

@@ -1,0 +1,6 @@
+AR bcd_7_sche behavioral D:/ISE/BCD_7_Sche/BCD_7_Sche.vhf sub00/vhpl03 1507971681
+AR inv4_mxilinx_bcd_7_sche behavioral D:/ISE/BCD_7_Sche/BCD_7_Sche.vhf sub00/vhpl01 1507971679
+MO INV4_MXILINX_BCD_7_Sche NULL BCD_7_Sche.vf vlg05/_i_n_v4___m_x_i_l_i_n_x___b_c_d__7___sche.bin 1510886933
+MO BCD_7_Sche NULL BCD_7_Sche.vf vlg29/_b_c_d__7___sche.bin 1510886933
+EN bcd_7_sche NULL D:/ISE/BCD_7_Sche/BCD_7_Sche.vhf sub00/vhpl02 1507971680
+EN inv4_mxilinx_bcd_7_sche NULL D:/ISE/BCD_7_Sche/BCD_7_Sche.vhf sub00/vhpl00 1507971678

@@ -1,0 +1,5 @@
+set -tmpdir "D:/ISE/vending_asychronous_Sche/xst/projnav.tmp"
+set -xsthdpdir "D:/ISE/vending_asychronous_Sche/xst"
+elaborate
+-ifn freq_div50M.prj
+-ifmt mixed

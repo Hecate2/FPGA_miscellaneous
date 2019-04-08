@@ -1,0 +1,8 @@
+vhdl work "exp_2_1_16_2.vhf"
+vhdl work "div5.vhf"
+vhdl work "div2.vhf"
+vhdl work "freq_div.vhf"
+vhdl work "exp_2_1_16_5.vhf"
+verilog work "display.v"
+verilog work "bus_tap.v"
+vhdl work "stopwatch_sportsman_Sche.vhf"

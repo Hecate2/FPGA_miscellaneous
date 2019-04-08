@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "D:/ISE/rolling/smg_ip.xst" -ofn "D:/ISE/rolling/smg_ip.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rolling.ucf -p xc3s100e-cp132-4 smg_ip.ngc smg_ip.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o smg_ip_map.ncd smg_ip.ngd smg_ip.pcf 
+par -w -intstyle ise -ol high -t 1 smg_ip_map.ncd smg_ip.ncd smg_ip.pcf 
+bitgen -intstyle ise -f smg_ip.ut smg_ip.ncd 
+xst -intstyle ise -ifn "D:/ISE/rolling/smg_ip.xst" -ofn "D:/ISE/rolling/smg_ip.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rolling.ucf -p xc3s100e-cp132-4 smg_ip.ngc smg_ip.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o smg_ip_map.ncd smg_ip.ngd smg_ip.pcf 
+par -w -intstyle ise -ol high -t 1 smg_ip_map.ncd smg_ip.ncd smg_ip.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml smg_ip.twx smg_ip.ncd -o smg_ip.twr smg_ip.pcf -ucf rolling.ucf 
+bitgen -intstyle ise -f smg_ip.ut smg_ip.ncd 

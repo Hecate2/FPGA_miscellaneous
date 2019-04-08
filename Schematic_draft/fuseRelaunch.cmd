@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/ISE/Schematic_draft/display_display_sch_tb_isim_beh.exe" -prj "D:/ISE/Schematic_draft/display_display_sch_tb_beh.prj" "display_display_sch_tb" "work.glbl" 

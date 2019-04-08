@@ -1,0 +1,19 @@
+NET "sm_duan[0]" LOC = L14;
+NET "sm_duan[1]" LOC = H12;
+NET "sm_duan[2]" LOC = N14;
+NET "sm_duan[3]" LOC = N11;
+NET "sm_duan[4]" LOC = P12;
+NET "sm_duan[5]" LOC = L13;
+NET "sm_duan[6]" LOC = M12;
+
+NET "clk" LOC = B8;
+
+NET "dot[3]" LOC = B4;
+NET "dot[2]" LOC = K3;
+NET "dot[1]" LOC = L3;
+NET "dot[0]" LOC = P11;
+
+NET "sm_wei[3]" LOC = K14;
+NET "sm_wei[2]" LOC = M13;
+NET "sm_wei[1]" LOC = J12;
+NET "sm_wei[0]" LOC = F12;
